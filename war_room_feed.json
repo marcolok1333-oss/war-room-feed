@@ -1,6 +1,6 @@
 {
   "schema": "war_room_feed/v1",
-  "as_of_hkt": "2026-11-01 18:30:25 HKT",
+  "as_of_hkt": "2026-11-01 19:20:10 HKT",
   "principal": 198.11,
   "capital_note": "",
   "strategies": [
@@ -47,7 +47,8 @@
   },
   "notes": [
     "純觀察；標籤／資金由交易側提交，經 feed 顯示",
-    "試作 sleeve＝總資金 5–10%；三卡內 elysium 40–45%／base-denim 25–30%／solana-narrative 10–15%；三卡合計帳戶風險硬頂 ~1.5%"
+    "試作 sleeve＝總資金 5–10%；三卡內 elysium 40–45%／base-denim 25–30%／solana-narrative 10–15%；三卡合計帳戶風險硬頂 ~1.5%",
+    "Phantom 三鏈餘額／持倉經 feed.wallets 顯示；更新＝改 JSON push，唔使 Publish App"
   ],
   "targets": {},
   "sleeves": {
@@ -71,5 +72,73 @@
     },
     "combined_account_risk_cap_pct": 1.5,
     "status": "trial"
+  },
+  "wallets": {
+    "as_of_hkt": "2026-11-01 19:20:10 HKT",
+    "source": "phantom",
+    "addresses": {
+      "solana": "CDG5WQyK4Eft49SYBN7ct1B48mjeShhtoU3FAaaqzuJk",
+      "ethereum": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
+      "base": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5"
+    },
+    "chains": [
+      {
+        "id": "ethereum",
+        "label": "ETH",
+        "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
+        "native": {
+          "symbol": "ETH",
+          "amount": 0.04388036,
+          "usd": 99.5
+        },
+        "holdings": [
+          {
+            "symbol": "ETH",
+            "amount": 0.04388036,
+            "usd": 99.5,
+            "kind": "native"
+          }
+        ],
+        "total_usd": 99.5
+      },
+      {
+        "id": "base",
+        "label": "Base",
+        "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
+        "native": {
+          "symbol": "ETH",
+          "amount": 0.04398585,
+          "usd": 99.74
+        },
+        "holdings": [
+          {
+            "symbol": "ETH",
+            "amount": 0.04398585,
+            "usd": 99.74,
+            "kind": "native"
+          }
+        ],
+        "total_usd": 99.74
+      },
+      {
+        "id": "solana",
+        "label": "SOL",
+        "address": "CDG5WQyK4Eft49SYBN7ct1B48mjeShhtoU3FAaaqzuJk",
+        "native": {
+          "symbol": "SOL",
+          "amount": 1.03345087,
+          "usd": 98.42
+        },
+        "holdings": [
+          {
+            "symbol": "SOL",
+            "amount": 1.03345087,
+            "usd": 98.42,
+            "kind": "native"
+          }
+        ],
+        "total_usd": 98.42
+      }
+    ]
   }
 }

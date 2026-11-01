@@ -1,15 +1,39 @@
 {
   "schema": "war_room_feed/v1",
-  "as_of_hkt": "2026-11-01 18:05:00 HKT",
+  "as_of_hkt": "2026-11-01 18:30:25 HKT",
   "principal": 198.11,
   "capital_note": "",
   "strategies": [
-    {"id": "profile-d-scalp", "label": "Profile D scalp", "family": "scalp"},
-    {"id": "swing", "label": "swing", "family": "swing"},
-    {"id": "event", "label": "event", "family": "event"},
-    {"id": "elysium", "label": "elysium", "family": "narrative"},
-    {"id": "base-denim", "label": "base-denim", "family": "narrative"},
-    {"id": "solana-narrative", "label": "solana-narrative", "family": "narrative"}
+    {
+      "id": "profile-d-scalp",
+      "label": "Profile D scalp",
+      "family": "scalp"
+    },
+    {
+      "id": "swing",
+      "label": "swing",
+      "family": "swing"
+    },
+    {
+      "id": "event",
+      "label": "event",
+      "family": "event"
+    },
+    {
+      "id": "elysium",
+      "label": "elysium",
+      "family": "narrative"
+    },
+    {
+      "id": "base-denim",
+      "label": "base-denim",
+      "family": "narrative"
+    },
+    {
+      "id": "solana-narrative",
+      "label": "solana-narrative",
+      "family": "narrative"
+    }
   ],
   "position_tags": {
     "BTC": "event",
@@ -21,6 +45,31 @@
     "ONDO": "profile-d-scalp",
     "XMR": "profile-d-scalp"
   },
-  "notes": ["純觀察；標籤／資金由交易側提交，經 feed 顯示"],
-  "targets": {}
+  "notes": [
+    "純觀察；標籤／資金由交易側提交，經 feed 顯示",
+    "試作 sleeve＝總資金 5–10%；三卡內 elysium 40–45%／base-denim 25–30%／solana-narrative 10–15%；三卡合計帳戶風險硬頂 ~1.5%"
+  ],
+  "targets": {},
+  "sleeves": {
+    "pool_pct_of_equity": {
+      "min": 5,
+      "max": 10
+    },
+    "within_pool": {
+      "elysium": {
+        "min_pct": 40,
+        "max_pct": 45
+      },
+      "base-denim": {
+        "min_pct": 25,
+        "max_pct": 30
+      },
+      "solana-narrative": {
+        "min_pct": 10,
+        "max_pct": 15
+      }
+    },
+    "combined_account_risk_cap_pct": 1.5,
+    "status": "trial"
+  }
 }

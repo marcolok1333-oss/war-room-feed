@@ -1,0 +1,26 @@
+{
+  "schema": "war_room_feed/v1",
+  "as_of_hkt": "2026-11-01 18:05:00 HKT",
+  "principal": 198.11,
+  "capital_note": "",
+  "strategies": [
+    {"id": "profile-d-scalp", "label": "Profile D scalp", "family": "scalp"},
+    {"id": "swing", "label": "swing", "family": "swing"},
+    {"id": "event", "label": "event", "family": "event"},
+    {"id": "elysium", "label": "elysium", "family": "narrative"},
+    {"id": "base-denim", "label": "base-denim", "family": "narrative"},
+    {"id": "solana-narrative", "label": "solana-narrative", "family": "narrative"}
+  ],
+  "position_tags": {
+    "BTC": "event",
+    "BNB": "event",
+    "xyz:BX": "event",
+    "ETH": "profile-d-scalp",
+    "ARB": "profile-d-scalp",
+    "DOT": "profile-d-scalp",
+    "ONDO": "profile-d-scalp",
+    "XMR": "profile-d-scalp"
+  },
+  "notes": ["純觀察；標籤／資金由交易側提交，經 feed 顯示"],
+  "targets": {}
+}

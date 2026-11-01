@@ -1,6 +1,6 @@
 {
   "schema": "war_room_feed/v1",
-  "as_of_hkt": "2026-11-01 19:20:10 HKT",
+  "as_of_hkt": "2026-11-01 20:38:11 HKT",
   "principal": 198.11,
   "capital_note": "",
   "strategies": [
@@ -17,7 +17,9 @@
     {
       "id": "event",
       "label": "event",
-      "family": "event"
+      "family": "event",
+      "status": "paused",
+      "note": "pause；唔再開新倉（交易側）"
     },
     {
       "id": "elysium",
@@ -36,9 +38,6 @@
     }
   ],
   "position_tags": {
-    "BTC": "event",
-    "BNB": "event",
-    "xyz:BX": "event",
     "ETH": "profile-d-scalp",
     "ARB": "profile-d-scalp",
     "DOT": "profile-d-scalp",
@@ -48,7 +47,9 @@
   "notes": [
     "純觀察；標籤／資金由交易側提交，經 feed 顯示",
     "試作 sleeve＝總資金 5–10%；三卡內 elysium 40–45%／base-denim 25–30%／solana-narrative 10–15%；三卡合計帳戶風險硬頂 ~1.5%",
-    "Phantom 三鏈餘額／持倉經 feed.wallets 顯示；更新＝改 JSON push，唔使 Publish App"
+    "Phantom 三鏈餘額／持倉經 feed.wallets 顯示；更新＝改 JSON push，唔使 Publish App",
+    "2026-11-01 ~18:58 HKT：event BNB 時間止損平",
+    "2026-11-01 ~20:30 HKT：event BTC 空／xyz:BX 空時間止損平（約 −$0.69／−$0.30）；event 仍 pause"
   ],
   "targets": {},
   "sleeves": {

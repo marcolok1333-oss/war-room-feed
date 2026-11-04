@@ -1,6 +1,6 @@
 {
   "schema": "war_room_feed/v1",
-  "as_of_hkt": "2026-11-04 08:39:06 HKT",
+  "as_of_hkt": "2026-11-04 08:43:00 HKT",
   "principal": 198.11,
   "capital_note": "",
   "strategies": [
@@ -39,10 +39,14 @@
   ],
   "position_tags": {
     "ETH": "profile-d-scalp",
-    "ARB": "profile-d-scalp",
-    "DOT": "profile-d-scalp",
     "ONDO": "profile-d-scalp",
-    "XMR": "profile-d-scalp"
+    "DOT": "profile-d-scalp",
+    "TIA": "profile-d-scalp",
+    "BTC": "swing",
+    "LDO": "profile-d-scalp",
+    "INJ": "profile-d-scalp",
+    "TAO": "profile-d-scalp",
+    "SEI": "profile-d-scalp"
   },
   "notes": [
     "純觀察；標籤／資金由交易側提交，經 feed 顯示",
@@ -199,17 +203,18 @@
     "total_pnl_usd": -119.78
   },
   "ledger": {
-    "as_of_hkt": "2026-11-04 07:59 HKT",
+    "as_of_hkt": "2026-11-04 08:42:10 HKT",
     "notion_parent": "https://app.notion.com/p/40ee4200be0a8150b4add9014d39b958",
+    "handoff_as_of_hkt": "2026-11-04 08:42:10 HKT",
     "summary": {
       "closed_count": 12,
-      "open_count": 9,
       "orphan_count": 2,
+      "open_count": 9,
       "wins": 6,
       "losses": 7,
       "breakeven": 1,
-      "win_rate": null,
-      "realized_pnl_usd": null,
+      "win_rate_pct": 42.86,
+      "realized_pnl_usd": -0.037254,
       "by_strategy": [
         {
           "strategy": "Profile D scalp",
@@ -239,98 +244,156 @@
       {
         "title": "2026-10-31 xyz:BX event short",
         "strategy": "event",
+        "theme": "generic_security",
         "coin": "xyz:BX",
         "side": "空",
-        "pnl_usd": null,
+        "pnl_usd": 0.617396,
         "result": "勝",
         "exit_reason": "時間止損",
         "sl": 123.205,
         "tp": 112.988,
-        "closed_at": null
+        "entry_px": 120.2079,
+        "exit_px": 119.71,
+        "open_at": "2026-10-31 16:12:52 HKT",
+        "closed_at": "2026-10-31 20:46:37 HKT",
+        "pnl_source": "交易所 closedPnl"
       },
       {
         "title": "2026-10-31 xyz:BX event short",
         "strategy": "event",
+        "theme": "exchange_hack",
         "coin": "xyz:BX",
         "side": "空",
-        "pnl_usd": null,
+        "pnl_usd": 0.38025,
         "result": "勝",
         "exit_reason": "時間止損",
         "sl": 122.615625,
         "tp": 112.4475,
-        "closed_at": null
+        "entry_px": 119.5742,
+        "exit_px": 119.27000000000001,
+        "open_at": "2026-10-31 21:02:02 HKT",
+        "closed_at": "2026-10-31 23:07:16 HKT",
+        "pnl_source": "交易所 closedPnl"
       },
       {
         "title": "2026-10-31 xyz:BX event short",
         "strategy": "event",
+        "theme": "generic_security",
         "coin": "xyz:BX",
         "side": "空",
-        "pnl_usd": null,
+        "pnl_usd": 0.0,
         "result": "打和",
         "exit_reason": "時間止損",
         "sl": 122.262,
         "tp": 112.1232,
-        "closed_at": null
+        "entry_px": 119.19,
+        "exit_px": 119.19000000000001,
+        "open_at": "2026-10-31 23:13:57 HKT",
+        "closed_at": "2026-11-01 01:38:21 HKT",
+        "pnl_source": "交易所 closedPnl"
       },
       {
         "title": "2026-11-01 xyz:BX event short",
         "strategy": "event",
+        "theme": "exchange_hack",
         "coin": "xyz:BX",
         "side": "空",
-        "pnl_usd": null,
+        "pnl_usd": -0.673,
         "result": "負",
         "exit_reason": "時間止損",
         "sl": 122.0775,
         "tp": 111.954,
-        "closed_at": null
+        "entry_px": 119.0316,
+        "exit_px": 119.56999999999998,
+        "open_at": "2026-11-01 02:08:35 HKT",
+        "closed_at": "2026-11-01 04:40:31 HKT",
+        "pnl_source": "交易所 closedPnl"
       },
       {
         "title": "2026-11-01 ARB Profile D scalp short",
         "strategy": "Profile D scalp",
+        "theme": null,
         "coin": "ARB",
         "side": "空",
-        "pnl_usd": null,
+        "pnl_usd": 0.5929,
         "result": "勝",
         "exit_reason": "交易所平倉（本地報表缺平倉）",
         "sl": 0.1670352,
         "tp": 0.163375,
-        "closed_at": null
+        "entry_px": 0.16364,
+        "exit_px": 0.15874,
+        "open_at": "2026-11-01 08:11:20 HKT",
+        "closed_at": "2026-11-04 06:56:13 HKT",
+        "pnl_source": "交易所 closedPnl"
       },
       {
         "title": "2026-11-01 BNB event short",
         "strategy": "event",
+        "theme": "exchange_hack",
         "coin": "BNB",
         "side": "空",
-        "pnl_usd": null,
+        "pnl_usd": -2.2386,
         "result": "負",
         "exit_reason": "時間止損",
         "sl": 720.344375,
         "tp": 660.6085,
-        "closed_at": null
+        "entry_px": 702.83,
+        "exit_px": 713.49,
+        "open_at": "2026-11-01 11:35:47 HKT",
+        "closed_at": "2026-11-01 18:58:08 HKT",
+        "pnl_source": "交易所 closedPnl"
       },
       {
         "title": "2026-11-01 xyz:BX event short",
         "strategy": "event",
+        "theme": "generic_security",
         "coin": "xyz:BX",
         "side": "空",
-        "pnl_usd": null,
+        "pnl_usd": -0.29900000000000004,
         "result": "負",
         "exit_reason": "時間止損",
         "sl": 122.502875,
         "tp": 112.3441,
-        "closed_at": null
+        "entry_px": 119.48,
+        "exit_px": 119.7192,
+        "open_at": "2026-11-01 13:42:31 HKT",
+        "closed_at": "2026-11-01 20:33:54 HKT",
+        "pnl_source": "交易所 closedPnl"
       },
       {
         "title": "2026-11-04 APT Profile D scalp short",
         "strategy": "Profile D scalp",
+        "theme": null,
         "coin": "APT",
         "side": "空",
-        "pnl_usd": null,
+        "pnl_usd": -0.1271,
         "result": "負",
         "exit_reason": "信號平倉",
         "sl": 0.628524,
         "tp": 0.6148499999999999,
-        "closed_at": null
+        "entry_px": 0.6149,
+        "exit_px": 0.619,
+        "open_at": "2026-11-04 01:34:44 HKT",
+        "closed_at": "2026-11-04 05:08:02 HKT",
+        "pnl_source": "交易所 closedPnl"
+      }
+    ],
+    "orphans": [
+      {
+        "title": "2026-10-31 BTC event short（開倉缺失）",
+        "coin": "BTC",
+        "strategy": "event",
+        "pnl_usd": 0.8132,
+        "result": "勝",
+        "note": "開倉缺失"
+      },
+      {
+        "title": "2026-11-01 BNB Profile D scalp short（開倉缺失）",
+        "coin": "BNB",
+        "strategy": "Profile D scalp",
+        "pnl_usd": -0.053,
+        "result": "負",
+        "note": "開倉缺失"
       }
     ]
   }

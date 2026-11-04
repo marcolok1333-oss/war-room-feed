@@ -1,6 +1,6 @@
 {
   "schema": "war_room_feed/v1",
-  "as_of_hkt": "2026-11-04 17:43:36 HKT",
+  "as_of_hkt": "2026-11-04 18:16:45 HKT",
   "principal": 198.11,
   "capital_note": "",
   "strategies": [
@@ -94,9 +94,14 @@
     "PENDLE": "profile-d-scalp",
     "UNI": "profile-d-scalp",
     "SUI": "profile-d-scalp",
-    "AVAX": "profile-d-scalp"
+    "AVAX": "profile-d-scalp",
+    "XMR": "profile-d-scalp"
   },
   "notes": [
+    {
+      "ts_hkt": "2026-11-04 18:16:45 HKT",
+      "text": "定時同步：無新平倉；新開 XMR Profile D scalp 多；HL 權益 $190.43（-3.88%）／已實現勝率 42.86%／現倉 14；Notion open＋feed 已刷新。"
+    },
     {
       "ts_hkt": "2026-11-04 17:43:36 HKT",
       "text": "定時同步：無新平倉；HL 權益 $191.09（-3.55%）／已實現勝率 42.86%／現倉 13；Notion open uPnL＋feed 已刷新。"
@@ -141,18 +146,6 @@
       "ts_hkt": "2026-11-04 11:48:26 HKT",
       "text": "定時同步：無新平倉；HL 權益 $195.65（-1.24%）／已實現勝率 42.86%／現倉 12；Notion open uPnL＋feed 已刷新。"
     },
-    {
-      "ts_hkt": "2026-11-04 11:18:53 HKT",
-      "text": "交易確認 solana-narrative 未入場；SNIPER 卡改未投／僅估算；來源 DexScreener，禁 solana.com。"
-    },
-    {
-      "ts_hkt": "2026-11-04 11:18:07 HKT",
-      "text": "修正：solana-narrative 未入場（交易側確認無 HL／幣安／Phantom 真倉）；禁止 solana.com；禁止把 sleeve 估算顯示成投咗 $0.98–$2.95。"
-    },
-    {
-      "ts_hkt": "2026-11-04 11:17:49 HKT",
-      "text": "修正 SNIPER／solana-narrative：佔池估算唔等於已投；來源唔用 solana.com；幣安敘事籃明細等交易側記入（而家未逐項）。"
-    },
     "純觀察；標籤／資金由交易側提交，經 feed 顯示",
     "試作 sleeve＝總資金 5–10%；三卡內 elysium 40–45%／base-denim 25–30%／solana-narrative 10–15%；三卡合計帳戶風險硬頂 ~1.5%",
     "Phantom 三鏈餘額／持倉經 feed.wallets 顯示；更新＝改 JSON push，唔使 Publish App"
@@ -184,7 +177,7 @@
     "display_rule": "pool_pct_of_equity × within_pool 只係佔池估算／預算，唔係已投金額；UI 標籤必須寫「佔池估算」，禁止寫「投咗」。"
   },
   "wallets": {
-    "as_of_hkt": "2026-11-04 17:43:36 HKT",
+    "as_of_hkt": "2026-11-04 18:16:45 HKT",
     "source": "phantom+manual",
     "addresses": {
       "solana": "CDG5WQyK4Eft49SYBN7ct1B48mjeShhtoU3FAaaqzuJk",
@@ -199,17 +192,17 @@
         "native": {
           "symbol": "SOL",
           "amount": 1.03345087,
-          "usd": 95.8998
+          "usd": 96.351
         },
         "holdings": [
           {
             "symbol": "SOL",
             "amount": 1.03345087,
-            "usd": 95.8998,
+            "usd": 96.351,
             "kind": "native"
           }
         ],
-        "total_usd": 95.8998
+        "total_usd": 96.351
       },
       {
         "id": "ethereum",
@@ -218,17 +211,17 @@
         "native": {
           "symbol": "ETH",
           "amount": 0.04388036,
-          "usd": 101.679
+          "usd": 101.9724
         },
         "holdings": [
           {
             "symbol": "ETH",
             "amount": 0.04388036,
-            "usd": 101.679,
+            "usd": 101.9724,
             "kind": "native"
           }
         ],
-        "total_usd": 101.679
+        "total_usd": 101.9724
       },
       {
         "id": "base",
@@ -237,22 +230,22 @@
         "native": {
           "symbol": "ETH",
           "amount": 0.04398585062437931,
-          "usd": 101.9107
+          "usd": 102.2149
         },
         "holdings": [
           {
             "symbol": "ETH",
             "amount": 0.04398585062437931,
-            "usd": 101.9107,
+            "usd": 102.2149,
             "kind": "native"
           }
         ],
-        "total_usd": 101.9107
+        "total_usd": 102.2149
       }
     ]
   },
   "accounts": {
-    "as_of_hkt": "2026-11-04 17:43:36 HKT",
+    "as_of_hkt": "2026-11-04 18:16:45 HKT",
     "cards": [
       {
         "id": "hl",
@@ -260,12 +253,12 @@
         "kind": "hyperliquid",
         "address": "0x434aac14e137f4c1c841fe3e5e53ce88ad241571",
         "principal_usd": 198.11,
-        "equity_usd": 191.0865,
-        "pnl_usd": -7.0235,
-        "pnl_pct": -0.035452,
+        "equity_usd": 190.4313,
+        "pnl_usd": -7.6787,
+        "pnl_pct": -0.03876,
         "source": "hl_info",
         "note": "",
-        "as_of_hkt": "2026-11-04 17:43:36 HKT"
+        "as_of_hkt": "2026-11-04 18:16:45 HKT"
       },
       {
         "id": "eth",
@@ -273,12 +266,12 @@
         "kind": "phantom",
         "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
         "principal_usd": 99.5,
-        "equity_usd": 101.679,
-        "pnl_usd": 2.179,
-        "pnl_pct": 0.021899497487437206,
+        "equity_usd": 101.9724,
+        "pnl_usd": 2.4724,
+        "pnl_pct": 0.024848241206030082,
         "source": "phantom",
         "note": "Phantom Ethereum native",
-        "as_of_hkt": "2026-11-04 17:43:36 HKT"
+        "as_of_hkt": "2026-11-04 18:16:45 HKT"
       },
       {
         "id": "base",
@@ -286,12 +279,12 @@
         "kind": "phantom",
         "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
         "principal_usd": 99.74,
-        "equity_usd": 101.9107,
-        "pnl_usd": 2.1707,
-        "pnl_pct": 0.021763585321836885,
+        "equity_usd": 102.2149,
+        "pnl_usd": 2.4749,
+        "pnl_pct": 0.024813515139362394,
         "source": "phantom",
         "note": "Phantom Base native",
-        "as_of_hkt": "2026-11-04 17:43:36 HKT"
+        "as_of_hkt": "2026-11-04 18:16:45 HKT"
       },
       {
         "id": "binance",
@@ -299,24 +292,24 @@
         "kind": "binance_onchain",
         "address": "0xDcC338A2799dFf84A4b9f672b0De814332b554B0",
         "principal_usd": 150.0,
-        "equity_usd": 32.7821,
-        "pnl_usd": -117.2179,
-        "pnl_pct": -0.7814526666666667,
+        "equity_usd": 32.855,
+        "pnl_usd": -117.145,
+        "pnl_pct": -0.7809666666666667,
         "source": "bsc_native_bnb",
-        "note": "鏈上 BSC native≈0.04672 BNB @ $701.62; CEX 倉未必喺呢個地址",
-        "as_of_hkt": "2026-11-04 17:43:36 HKT"
+        "note": "鏈上 BSC native≈0.04672 BNB @ $703.18; CEX 倉未必喺呢個地址",
+        "as_of_hkt": "2026-11-04 18:16:45 HKT"
       }
     ],
     "total_principal_usd": 547.35,
-    "total_equity_usd": 427.46,
-    "total_pnl_usd": -119.89
+    "total_equity_usd": 427.47,
+    "total_pnl_usd": -119.88
   },
   "ledger": {
-    "as_of_hkt": "2026-11-04 17:43:36 HKT",
+    "as_of_hkt": "2026-11-04 18:16:45 HKT",
     "summary": {
       "closed_count": 12,
       "orphan_count": 2,
-      "open_count": 13,
+      "open_count": 14,
       "wins": 6,
       "losses": 8,
       "breakeven": 1,

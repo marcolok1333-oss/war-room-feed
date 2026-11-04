@@ -1,6 +1,6 @@
 {
   "schema": "war_room_feed/v1",
-  "as_of_hkt": "2026-11-04 10:48:55 HKT",
+  "as_of_hkt": "2026-11-04 11:18:53 HKT",
   "principal": 198.11,
   "capital_note": "",
   "strategies": [
@@ -24,17 +24,61 @@
     {
       "id": "elysium",
       "label": "elysium",
-      "family": "narrative"
+      "family": "narrative",
+      "status": "trial",
+      "venue": "hyperliquid",
+      "basket": false,
+      "invested_usd": null,
+      "invested_status": "未逐項",
+      "invested_note": "已投金額只顯示交易側記入嘅真倉；唔好用 sleeve 估算冒充",
+      "source_url": "https://elysium.kinetiq.xyz/docs/what-is-elysium",
+      "blurb": "Elysium／HYPE 敘事；條件未齊唔加。"
     },
     {
       "id": "base-denim",
       "label": "base-denim",
-      "family": "narrative"
+      "family": "narrative",
+      "status": "trial",
+      "venue": "base",
+      "basket": true,
+      "invested_usd": null,
+      "invested_status": "未逐項",
+      "invested_note": "已投金額只顯示交易側記入嘅真倉；唔好用 sleeve 估算冒充",
+      "source_url": "https://docs.base.org/upgrades/denim/overview",
+      "blurb": "Base Denim 硬分叉敘事；無量＝零倉。"
     },
     {
       "id": "solana-narrative",
       "label": "solana-narrative",
-      "family": "narrative"
+      "family": "narrative",
+      "status": "watch_only",
+      "invested": false,
+      "note": "未入場／試作。監控 DexScreener（DESSA／SIS）；禁止 solana.com；唔顯示固定買入價帶。",
+      "links": [
+        {
+          "label": "DESSA DexScreener",
+          "url": "https://dexscreener.com/solana/gcf2fhoufq7pkqhgpaipywacrakidyw2ydpvwsvpump"
+        },
+        {
+          "label": "SIS DexScreener",
+          "url": "https://dexscreener.com/solana/ht4gxw1pl2sfamcfc3qczecjdhpe55ttjujnkvs2nhxr"
+        }
+      ],
+      "venue": "binance",
+      "basket": true,
+      "invested_usd": null,
+      "invested_status": "未入場",
+      "invested_note": "未入場。禁止用 sleeve 佔池估算顯示成「投咗」。",
+      "source_url": null,
+      "source_label": null,
+      "blurb": "Solana 敘事籃，唔係單一幣；跟熱門敘事輪動。未開倉；持倉將來由交易側記入幣安。",
+      "entry_rule": "回撤 probe／唔用固定價；籃子唔顯示單一價區間",
+      "liq_min_usd": 120000,
+      "exclude": [
+        "PAWCAT高位",
+        "KIM copycat",
+        "BLEP"
+      ]
     }
   ],
   "position_tags": {
@@ -49,6 +93,18 @@
     "SEI": "profile-d-scalp"
   },
   "notes": [
+    {
+      "ts_hkt": "2026-11-04 11:18:53 HKT",
+      "text": "交易確認 solana-narrative 未入場；SNIPER 卡改未投／僅估算；來源 DexScreener，禁 solana.com。"
+    },
+    {
+      "ts_hkt": "2026-11-04 11:18:07 HKT",
+      "text": "修正：solana-narrative 未入場（交易側確認無 HL／幣安／Phantom 真倉）；禁止 solana.com；禁止把 sleeve 估算顯示成投咗 $0.98–$2.95。"
+    },
+    {
+      "ts_hkt": "2026-11-04 11:17:49 HKT",
+      "text": "修正 SNIPER／solana-narrative：佔池估算唔等於已投；來源唔用 solana.com；幣安敘事籃明細等交易側記入（而家未逐項）。"
+    },
     {
       "ts_hkt": "2026-11-04 10:48:55 HKT",
       "text": "定時同步：權益 $196.55／已實現勝率 46.15%／現倉 9；Notion＋feed 已刷新。"
@@ -80,7 +136,10 @@
       }
     },
     "combined_account_risk_cap_pct": 1.5,
-    "status": "trial"
+    "status": "trial",
+    "invested": false,
+    "note": "試作 sleeve 僅估算；三卡未真倉。UI 唔好顯示「投咗」金額。",
+    "display_rule": "pool_pct_of_equity × within_pool 只係佔池估算／預算，唔係已投金額；UI 標籤必須寫「佔池估算」，禁止寫「投咗」。"
   },
   "wallets": {
     "as_of_hkt": "2026-11-04 10:48:55 HKT",
@@ -406,6 +465,32 @@
       "gap": 1,
       "gap_note": "ARB 2026-11-04 ~06:56 HL 已平但 trade_reports 漏記；另有 pre-ledger fills",
       "source_pack": "/workspace/trading-data-complete-2026-11-04/"
+    }
+  },
+  "sniper": {
+    "as_of_hkt": "2026-11-04 11:18:53 HKT",
+    "status": "watch_only",
+    "note": "solana-narrative 未入場；無幣安／Phantom 明細。",
+    "positions": [],
+    "by_strategy": {
+      "solana-narrative": {
+        "invested_usd": null,
+        "invested_status": "未入場",
+        "items": [],
+        "venue": "binance"
+      },
+      "elysium": {
+        "invested_usd": null,
+        "invested_status": "未逐項",
+        "items": [],
+        "venue": "hyperliquid"
+      },
+      "base-denim": {
+        "invested_usd": null,
+        "invested_status": "未逐項",
+        "items": [],
+        "venue": "base"
+      }
     }
   }
 }

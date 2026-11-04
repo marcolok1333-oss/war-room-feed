@@ -1,6 +1,6 @@
 {
   "schema": "war_room_feed/v1",
-  "as_of_hkt": "2026-11-04 09:49:07 HKT",
+  "as_of_hkt": "2026-11-04 10:15:56 HKT",
   "principal": 198.11,
   "capital_note": "",
   "strategies": [
@@ -79,7 +79,7 @@
     "status": "trial"
   },
   "wallets": {
-    "as_of_hkt": "2026-11-04 09:49:07 HKT",
+    "as_of_hkt": "2026-11-04 10:15:56 HKT",
     "source": "phantom+manual",
     "addresses": {
       "solana": "CDG5WQyK4Eft49SYBN7ct1B48mjeShhtoU3FAaaqzuJk",
@@ -94,17 +94,17 @@
         "native": {
           "symbol": "ETH",
           "amount": 0.04388036,
-          "usd": 99.1129
+          "usd": 99.1733
         },
         "holdings": [
           {
             "symbol": "ETH",
             "amount": 0.04388036,
-            "usd": 99.1129,
+            "usd": 99.1733,
             "kind": "native"
           }
         ],
-        "total_usd": 99.1129
+        "total_usd": 99.1733
       },
       {
         "id": "base",
@@ -113,17 +113,17 @@
         "native": {
           "symbol": "ETH",
           "amount": 0.04398585062437931,
-          "usd": 99.3507
+          "usd": 99.3808
         },
         "holdings": [
           {
             "symbol": "ETH",
             "amount": 0.04398585062437931,
-            "usd": 99.3507,
+            "usd": 99.3808,
             "kind": "native"
           }
         ],
-        "total_usd": 99.3507
+        "total_usd": 99.3808
       },
       {
         "id": "solana",
@@ -132,22 +132,22 @@
         "native": {
           "symbol": "SOL",
           "amount": 1.03345087,
-          "usd": 94.6684
+          "usd": 94.8091
         },
         "holdings": [
           {
             "symbol": "SOL",
             "amount": 1.03345087,
-            "usd": 94.6684,
+            "usd": 94.8091,
             "kind": "native"
           }
         ],
-        "total_usd": 94.6684
+        "total_usd": 94.8091
       }
     ]
   },
   "accounts": {
-    "as_of_hkt": "2026-11-04 09:49:07 HKT",
+    "as_of_hkt": "2026-11-04 10:15:56 HKT",
     "cards": [
       {
         "id": "hl",
@@ -155,9 +155,9 @@
         "kind": "hyperliquid",
         "address": "0x434aac14e137f4c1c841fe3e5e53ce88ad241571",
         "principal_usd": 198.11,
-        "equity_usd": 196.701,
-        "pnl_usd": -1.409,
-        "pnl_pct": -0.007112,
+        "equity_usd": 196.547588,
+        "pnl_usd": -1.5624,
+        "pnl_pct": -0.007887,
         "source": "hl_info",
         "note": ""
       },
@@ -167,9 +167,9 @@
         "kind": "phantom",
         "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
         "principal_usd": 99.5,
-        "equity_usd": 99.1129,
-        "pnl_usd": -0.3871,
-        "pnl_pct": -0.00389,
+        "equity_usd": 99.1733,
+        "pnl_usd": -0.3267,
+        "pnl_pct": -0.003283516788523619,
         "source": "phantom",
         "note": "Phantom Ethereum native"
       },
@@ -179,9 +179,9 @@
         "kind": "phantom",
         "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
         "principal_usd": 99.74,
-        "equity_usd": 99.3507,
-        "pnl_usd": -0.3893,
-        "pnl_pct": -0.003903,
+        "equity_usd": 99.3808,
+        "pnl_usd": -0.3592,
+        "pnl_pct": -0.0036011428697947383,
         "source": "phantom",
         "note": "Phantom Base native"
       },
@@ -191,21 +191,21 @@
         "kind": "binance_onchain",
         "address": "0xDcC338A2799dFf84A4b9f672b0De814332b554B0",
         "principal_usd": 150.0,
-        "equity_usd": 32.3303,
-        "pnl_usd": -117.6697,
-        "pnl_pct": -0.784465,
+        "equity_usd": 32.3732,
+        "pnl_usd": -117.6268,
+        "pnl_pct": -0.7841784163726002,
         "source": "bsc_native_bnb",
         "note": "鏈上 BSC native≈0.0467 BNB；CEX 倉未必喺呢個地址"
       }
     ],
     "total_principal_usd": 547.35,
-    "total_equity_usd": 427.49,
-    "total_pnl_usd": -119.86
+    "total_equity_usd": 427.47,
+    "total_pnl_usd": -119.88
   },
   "ledger": {
-    "as_of_hkt": "2026-11-04 09:49:07 HKT",
+    "as_of_hkt": "2026-11-04 10:15:56 HKT",
     "notion_parent": "https://app.notion.com/p/40ee4200be0a8150b4add9014d39b958",
-    "handoff_as_of_hkt": "2026-11-04 09:49:07 HKT",
+    "handoff_as_of_hkt": "2026-11-04 10:15:56 HKT",
     "summary": {
       "closed_count": 12,
       "orphan_count": 2,
@@ -385,7 +385,7 @@
         "strategy": "event",
         "pnl_usd": 0.8132,
         "result": "勝",
-        "note": "開倉缺失"
+        "note": "開倉紀錄缺失"
       },
       {
         "title": "2026-11-01 BNB Profile D scalp short（開倉缺失）",
@@ -393,7 +393,7 @@
         "strategy": "Profile D scalp",
         "pnl_usd": -0.053,
         "result": "負",
-        "note": "開倉缺失"
+        "note": "開倉紀錄缺失"
       }
     ]
   }

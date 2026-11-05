@@ -1,6 +1,6 @@
 {
   "schema": "war_room_feed/v1",
-  "as_of_hkt": "2026-11-05 18:57:40 HKT",
+  "as_of_hkt": "2026-11-05 19:17:06 HKT",
   "principal": 198.11,
   "capital_note": "",
   "strategies": [
@@ -97,6 +97,10 @@
   },
   "notes": [
     {
+      "ts_hkt": "2026-11-05 19:17:06 HKT",
+      "text": "定時同步：無新平倉；HL 權益 $187.89（-5.16%）／勝率 33.33%／現倉 12；帳戶卡已刷新；event 仍 shadow。"
+    },
+    {
       "ts_hkt": "2026-11-05 18:57:40 HKT",
       "text": "定時同步：新平倉 DOGE 勝 +0.095976（swing 轉勢）、TAO 勝 +0.6304（Profile D scalp 轉勢）；HL 權益 $187.89（-5.16%）／已實現勝率 33.33%／現倉 12；Notion＋feed 已刷新；event 仍 shadow。"
     },
@@ -176,29 +180,29 @@
     "display_rule": "pool_pct_of_equity × within_pool 只係佔池估算／預算，唔係已投金額；UI 標籤必須寫「佔池估算」，禁止寫「投咗」。"
   },
   "wallets": {
-    "as_of_hkt": "2026-11-05 18:57:40 HKT",
+    "as_of_hkt": "2026-11-05 19:17:06 HKT",
     "eth": {
       "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
-      "equity_usd": 105.9248,
+      "equity_usd": 106.0564,
       "principal_usd": 99.5
     },
     "base": {
       "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
-      "equity_usd": 106.1795,
+      "equity_usd": 106.3086,
       "principal_usd": 99.74
     },
     "sol": {
       "address": "CDG5WQyK4Eft49SYBN7ct1B48mjeShhtoU3FAaaqzuJk",
-      "equity_usd": 99.8144
+      "equity_usd": 99.7189
     },
     "binance": {
       "address": "0xDcC338A2799dFf84A4b9f672b0De814332b554B0",
-      "equity_usd": 33.453,
+      "equity_usd": 33.5091,
       "principal_usd": 150.0
     }
   },
   "accounts": {
-    "as_of_hkt": "2026-11-05 18:57:40 HKT",
+    "as_of_hkt": "2026-11-05 19:17:06 HKT",
     "cards": [
       {
         "id": "hl",
@@ -206,12 +210,12 @@
         "kind": "hyperliquid",
         "address": "0x434aac14e137f4c1c841fe3e5e53ce88ad241571",
         "principal_usd": 198.11,
-        "equity_usd": 187.891673,
-        "pnl_usd": -10.2183,
-        "pnl_pct": -0.051579,
+        "equity_usd": 187.887815,
+        "pnl_usd": -10.2222,
+        "pnl_pct": -0.051599,
         "source": "hl_info",
         "note": "",
-        "as_of_hkt": "2026-11-05 18:57:40 HKT"
+        "as_of_hkt": "2026-11-05 19:17:06 HKT"
       },
       {
         "id": "eth",
@@ -219,12 +223,12 @@
         "kind": "phantom",
         "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
         "principal_usd": 99.5,
-        "equity_usd": 105.9248,
-        "pnl_usd": 6.4248,
-        "pnl_pct": 0.06457085427135684,
+        "equity_usd": 106.0564,
+        "pnl_usd": 6.5564,
+        "pnl_pct": 0.06589346733668339,
         "source": "phantom",
         "note": "Phantom Ethereum native",
-        "as_of_hkt": "2026-11-05 18:57:40 HKT"
+        "as_of_hkt": "2026-11-05 19:17:06 HKT"
       },
       {
         "id": "base",
@@ -232,12 +236,12 @@
         "kind": "phantom",
         "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
         "principal_usd": 99.74,
-        "equity_usd": 106.1795,
-        "pnl_usd": 6.4395,
-        "pnl_pct": 0.06456286344495699,
+        "equity_usd": 106.3086,
+        "pnl_usd": 6.5686,
+        "pnl_pct": 0.06585722879486669,
         "source": "phantom",
         "note": "Phantom Base native ETH",
-        "as_of_hkt": "2026-11-05 18:57:40 HKT"
+        "as_of_hkt": "2026-11-05 19:17:06 HKT"
       },
       {
         "id": "binance",
@@ -245,18 +249,18 @@
         "kind": "binance_onchain",
         "address": "0xDcC338A2799dFf84A4b9f672b0De814332b554B0",
         "principal_usd": 150.0,
-        "equity_usd": 33.453,
-        "pnl_usd": -116.547,
-        "pnl_pct": -0.77698,
+        "equity_usd": 33.5091,
+        "pnl_usd": -116.4909,
+        "pnl_pct": -0.776606,
         "source": "etherscan_bsc",
-        "note": "鏈上 BSC BNB≈$33.453（本金$150；CEX 資金大多唔喺呢個地址）",
-        "as_of_hkt": "2026-11-05 18:57:40 HKT"
+        "note": "鏈上 BSC BNB≈$33.5091（本金$150；CEX 資金大多唔喺呢個地址）",
+        "as_of_hkt": "2026-11-05 19:17:06 HKT"
       }
     ]
   },
   "ledger": {
     "summary": {
-      "as_of_hkt": "2026-11-05 18:57:40 HKT",
+      "as_of_hkt": "2026-11-05 19:17:06 HKT",
       "closed_with_pnl": 28,
       "wins": 9,
       "losses": 18,
@@ -264,8 +268,8 @@
       "win_rate_pct": 33.33,
       "sum_realized_pnl": -9.434782999999998,
       "open": 12,
-      "hl_equity": 187.891673,
-      "hl_pnl_usd": -10.2183,
+      "hl_equity": 187.887815,
+      "hl_pnl_usd": -10.2222,
       "hl_pnl_pct_display": "-5.16%",
       "strategies": [
         {

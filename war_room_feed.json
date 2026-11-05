@@ -1,6 +1,6 @@
 {
   "schema": "war_room_feed/v1",
-  "as_of_hkt": "2026-11-05 09:50:22 HKT",
+  "as_of_hkt": "2026-11-05 10:18:59 HKT",
   "principal": 198.11,
   "capital_note": "",
   "strategies": [
@@ -103,6 +103,10 @@
   },
   "notes": [
     {
+      "ts_hkt": "2026-11-05 10:18:59 HKT",
+      "text": "定時同步：無新平倉；HL 權益 $189.75（-4.22%）／已實現勝率 35.29%／現倉 18；Notion open uPnL＋feed 已刷新；event 仍 shadow。"
+    },
+    {
       "ts_hkt": "2026-11-05 09:50:22 HKT",
       "text": "定時同步：無新平倉；HL 權益 $189.46（-4.37%）／已實現勝率 35.29%／現倉 18；Notion open uPnL＋feed 已刷新；event 仍 shadow。"
     },
@@ -137,10 +141,6 @@
     {
       "ts_hkt": "2026-11-04 19:49:54 HKT",
       "text": "定時同步：無新平倉；HL 權益 $190.62（-3.78%）／已實現勝率 42.86%／現倉 14；Notion open uPnL＋feed 已刷新。"
-    },
-    {
-      "ts_hkt": "2026-11-04 19:15:01 HKT",
-      "text": "定時同步：無新平倉；HL 權益 $190.40（-3.89%）／已實現勝率 42.86%／現倉 14；Notion open uPnL＋feed 已刷新。"
     }
   ],
   "targets": {},
@@ -170,8 +170,8 @@
     "display_rule": "pool_pct_of_equity × within_pool 只係佔池估算／預算，唔係已投金額；UI 標籤必須寫「佔池估算」，禁止寫「投咗」。"
   },
   "wallets": {
-    "as_of_hkt": "2026-11-05 09:50:22 HKT",
-    "source": "phantom_mcp+etherscan_bsc",
+    "as_of_hkt": "2026-11-05 10:18:59 HKT",
+    "source": "phantom_mcp+bsc_rpc",
     "addresses": {
       "solana": "CDG5WQyK4Eft49SYBN7ct1B48mjeShhtoU3FAaaqzuJk",
       "evm": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5"
@@ -183,11 +183,11 @@
         "native": {
           "symbol": "SOL",
           "amount": 1.03345087,
-          "usd": 99.0639,
-          "price": 95.85740825
+          "usd": 99.3568,
+          "price": 96.14078104
         },
         "holdings": [],
-        "total_usd": 99.0639
+        "total_usd": 99.3568
       },
       {
         "chain": "ethereum",
@@ -195,11 +195,11 @@
         "native": {
           "symbol": "ETH",
           "amount": 0.04388036,
-          "usd": 106.3685,
-          "price": 2424.05610486
+          "usd": 106.5355,
+          "price": 2427.86347882
         },
         "holdings": [],
-        "total_usd": 106.3685
+        "total_usd": 106.5355
       },
       {
         "chain": "base",
@@ -207,16 +207,16 @@
         "native": {
           "symbol": "ETH",
           "amount": 0.04398585062437931,
-          "usd": 106.6232,
-          "price": 2424.03338328
+          "usd": 106.7916,
+          "price": 2427.86347882
         },
         "holdings": [],
-        "total_usd": 106.6232
+        "total_usd": 106.7916
       }
     ]
   },
   "accounts": {
-    "as_of_hkt": "2026-11-05 09:50:22 HKT",
+    "as_of_hkt": "2026-11-05 10:18:59 HKT",
     "cards": [
       {
         "id": "hl",
@@ -224,12 +224,12 @@
         "kind": "hyperliquid",
         "address": "0x434aac14e137f4c1c841fe3e5e53ce88ad241571",
         "principal_usd": 198.11,
-        "equity_usd": 189.4599,
-        "pnl_usd": -8.6501,
-        "pnl_pct": -0.04366311645045681,
+        "equity_usd": 189.7478,
+        "pnl_usd": -8.3622,
+        "pnl_pct": -0.04221,
         "source": "hl_info",
         "note": "",
-        "as_of_hkt": "2026-11-05 09:50:22 HKT"
+        "as_of_hkt": "2026-11-05 10:18:59 HKT"
       },
       {
         "id": "eth",
@@ -237,12 +237,12 @@
         "kind": "phantom",
         "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
         "principal_usd": 99.5,
-        "equity_usd": 106.3685,
-        "pnl_usd": 6.8685,
-        "pnl_pct": 0.06903015075376882,
+        "equity_usd": 106.5355,
+        "pnl_usd": 7.0355,
+        "pnl_pct": 0.07070854271356783,
         "source": "phantom",
         "note": "Phantom Ethereum native",
-        "as_of_hkt": "2026-11-05 09:50:22 HKT"
+        "as_of_hkt": "2026-11-05 10:18:59 HKT"
       },
       {
         "id": "base",
@@ -250,12 +250,12 @@
         "kind": "phantom",
         "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
         "principal_usd": 99.74,
-        "equity_usd": 106.6232,
-        "pnl_usd": 6.8832,
-        "pnl_pct": 0.06901142971726491,
+        "equity_usd": 106.7916,
+        "pnl_usd": 7.0516,
+        "pnl_pct": 0.07069981953078011,
         "source": "phantom",
         "note": "Phantom Base native",
-        "as_of_hkt": "2026-11-05 09:50:22 HKT"
+        "as_of_hkt": "2026-11-05 10:18:59 HKT"
       },
       {
         "id": "binance",
@@ -263,20 +263,20 @@
         "kind": "binance_onchain",
         "address": "0xDcC338A2799dFf84A4b9f672b0De814332b554B0",
         "principal_usd": 150.0,
-        "equity_usd": 33.5736,
-        "pnl_usd": -116.4264,
-        "pnl_pct": -0.776176,
+        "equity_usd": 33.6016,
+        "pnl_usd": -116.3984,
+        "pnl_pct": -0.7759893333333334,
         "source": "bsc_native_bnb",
-        "note": "鏈上 BSC native≈0.04672 BNB @ $718.56; CEX 倉未必喺呢個地址",
-        "as_of_hkt": "2026-11-05 09:50:22 HKT"
+        "note": "鏈上 BSC native≈0.04672 BNB @ $719.16; CEX 倉未必喺呢個地址",
+        "as_of_hkt": "2026-11-05 10:18:59 HKT"
       }
     ],
     "total_principal_usd": 547.35,
-    "total_equity_usd": 436.0252,
-    "total_pnl_usd": -111.3248
+    "total_equity_usd": 436.6765,
+    "total_pnl_usd": -110.6735
   },
   "ledger": {
-    "as_of_hkt": "2026-11-05 09:50:22 HKT",
+    "as_of_hkt": "2026-11-05 10:18:59 HKT",
     "summary": {
       "closed_count": 15,
       "orphan_count": 2,

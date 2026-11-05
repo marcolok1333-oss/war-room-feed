@@ -1,6 +1,6 @@
 {
   "schema": "war_room_feed/v1",
-  "as_of_hkt": "2026-11-05 21:14:59 HKT",
+  "as_of_hkt": "2026-11-05 21:19:52 HKT",
   "principal": 198.11,
   "capital_note": "",
   "strategies": [
@@ -18,8 +18,8 @@
       "id": "event",
       "label": "event",
       "family": "event",
-      "status": "shadow",
-      "note": "resumed_shadow；影子模式，唔開真倉（交易側）"
+      "status": "live",
+      "note": "LIVE（非 shadow）：EVENT_SHADOW_MODE=false + EVENT_LIVE／三重閘／--live；過閘可真開倉。常設硬頂 ≤$100／≤3x。對齊 @ 2026-11-05 21:19:52 HKT"
     },
     {
       "id": "elysium",
@@ -87,15 +87,15 @@
   "notes": [
     {
       "ts_hkt": "2026-11-05 21:14:59 HKT",
-      "text": "定時同步：無新平倉；HL 權益 $187.47（-5.37%）／勝率 36.84%／現倉 1；帳戶卡已刷新；event 仍 shadow。"
+      "text": "定時同步：無新平倉；HL 權益 $187.47（-5.37%）／勝率 36.84%／現倉 1；帳戶卡已刷新；event LIVE（非 shadow；常設夾 ≤$100／≤3x）。"
     },
     {
       "ts_hkt": "2026-11-05 20:46:17 HKT",
-      "text": "定時同步：新平倉 10 筆（time_stop_hard×8：BTC/ETH/LTC/ARB/SEI/TIA/ADA/XMR；hard_sl：SOL/LINK）；HL 權益 $187.47（-5.37%）／已實現勝率 36.84%／現倉 1（BNB）；Notion＋feed 已刷新；event 仍 shadow。"
+      "text": "定時同步：新平倉 10 筆（time_stop_hard×8：BTC/ETH/LTC/ARB/SEI/TIA/ADA/XMR；hard_sl：SOL/LINK）；HL 權益 $187.47（-5.37%）／已實現勝率 36.84%／現倉 1（BNB）；Notion＋feed 已刷新；event LIVE（非 shadow；常設夾 ≤$100／≤3x）。"
     },
     {
       "ts_hkt": "2026-11-05 19:46:21 HKT",
-      "text": "定時同步：無新平倉；HL 權益 $188.00（-5.10%）／勝率 33.33%／現倉 12；帳戶卡已刷新；event 仍 shadow。"
+      "text": "定時同步：無新平倉；HL 權益 $188.00（-5.10%）／勝率 33.33%／現倉 12；帳戶卡已刷新；event LIVE（非 shadow；常設夾 ≤$100／≤3x）。"
     },
     {
       "ts_hkt": "2026-11-05 19:17:06 HKT",

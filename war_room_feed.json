@@ -1,6 +1,6 @@
 {
   "schema": "war_room_feed/v1",
-  "as_of_hkt": "2026-11-06 20:29:28 HKT",
+  "as_of_hkt": "2026-11-06 22:33:52 HKT",
   "principal": 198.11,
   "capital_note": "",
   "strategies": [
@@ -19,7 +19,7 @@
       "label": "event",
       "family": "event",
       "status": "live",
-      "note": "LIVE（非 shadow）：EVENT_SHADOW_MODE=false + EVENT_LIVE／三重閘／--live；過閘可真開倉。常設硬頂 ≤$100／≤3x。對齊 @ 2026-11-06 20:29:28 HKT"
+      "note": "LIVE（非 shadow）：EVENT_SHADOW_MODE=false + EVENT_LIVE／三重閘／--live；過閘可真開倉。常設硬頂 ≤$100／≤3x。對齊 @ 2026-11-06 22:33:52 HKT"
     },
     {
       "id": "elysium",
@@ -91,9 +91,13 @@
   ],
   "position_tags": {
     "HYPE": "swing",
-    "BTC": "marco_manual"
+    "BTC": "其他"
   },
   "notes": [
+    {
+      "ts_hkt": "2026-11-06 22:33:52 HKT",
+      "text": "定時同步：無新平倉；HL 權益 $143.86（-27.39%；前成功同步 $181.27/−8.50%；Δ≈$-37.41）／勝率 34.1%／合計 -15.98694；現倉 2（HYPE swing 空 uPnL≈+0.09／BTC 人手多 ≈-32.00）；帳戶卡＋Notion open uPnL 已刷新；event LIVE；enable_scalp=true（Marco Resume）。"
+    },
     {
       "ts_hkt": "2026-11-06 20:29:28 HKT",
       "text": "定時同步：無新平倉；HL 權益 $181.27（-8.50%；前值 $178.88/−9.71%；Δ≈$+2.39）／勝率 34.1%／合計 -15.98694；現倉 2（HYPE swing 空 uPnL≈-0.06／BTC 人手多 ≈+5.48）；帳戶卡＋Notion open uPnL 已刷新；event LIVE；enable_scalp=true（Marco Resume）。"
@@ -141,22 +145,6 @@
     {
       "as_of_hkt": "2026-11-06 10:48:23 HKT",
       "text": "定時同步：無新平倉；HL 權益 $176.99（-10.66%；前值 $176.20/-11.06%）／勝率 35.0%／合計 -9.03188；現倉 2（HYPE swing＋BTC 人手）；帳戶卡＋Notion open uPnL 已刷新；event LIVE；enable_scalp=true（Marco Resume）。"
-    },
-    {
-      "as_of_hkt": "2026-11-06 10:14:21 HKT",
-      "text": "定時同步：無新平倉；HL 權益 $176.20（-11.06%；前值 $177.29/-10.51%）／勝率 35.0%／合計 -9.03188；現倉 2（HYPE swing＋BTC 人手）；帳戶卡＋Notion open uPnL 已刷新；event LIVE；enable_scalp=true（Marco Resume）。"
-    },
-    {
-      "as_of_hkt": "2026-11-06 09:44:43 HKT",
-      "text": "定時同步：無新平倉；HL 權益 $177.29（-10.51%；前值 $172.95/-12.70%）／勝率 35.0%／合計 -9.03188；現倉 2（HYPE swing＋BTC 人手）；帳戶卡＋Notion open uPnL 已刷新；event LIVE；enable_scalp=true（Marco Resume）。"
-    },
-    {
-      "as_of_hkt": "2026-11-06 09:14:23 HKT",
-      "text": "定時同步：無新平倉；HL 權益 $172.95（-12.70%；前值 $168.43/-14.98%）／勝率 35.0%／合計 -9.03188；現倉 2（HYPE swing＋BTC 人手）；帳戶卡＋Notion open uPnL 已刷新；event LIVE；enable_scalp=true（Marco Resume）。"
-    },
-    {
-      "as_of_hkt": "2026-11-06 08:43:54 HKT",
-      "text": "定時同步：無新平倉；HL 權益 $168.43（-14.98%；前值 $178.86/-9.72%）／勝率 35.0%／合計 -9.03188；現倉 2（HYPE swing＋BTC 人手）；帳戶卡＋Notion open uPnL 已刷新；event LIVE；enable_scalp=true（Marco Resume）。"
     }
   ],
   "targets": {},
@@ -188,29 +176,29 @@
     "stop_note": "Marco：ETH／Base／Sol 掃描同策略完全停止；elysium／base-denim／solana-narrative 停用"
   },
   "wallets": {
-    "as_of_hkt": "2026-11-06 20:29:28 HKT",
+    "as_of_hkt": "2026-11-06 22:33:52 HKT",
     "eth": {
       "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
-      "equity_usd": 8.611220535371263,
+      "equity_usd": 8.554150521561823,
       "principal_usd": 99.5,
       "native_qty": 0.00383836,
-      "note": "Phantom+etherscan native; prior feed ~98 was stale/wrong"
+      "note": "Phantom+etherscan native"
     },
     "base": {
       "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
-      "equity_usd": 0.6409089238325683,
+      "equity_usd": 0.6367634006922788,
       "principal_usd": 99.74,
       "native_qty": 0.000285724124273998,
       "note": "Phantom+etherscan native"
     },
     "sol": {
       "address": "CDG5WQyK4Eft49SYBN7ct1B48mjeShhtoU3FAaaqzuJk",
-      "equity_usd": 1.2169786648902228,
+      "equity_usd": 1.2101116290495049,
       "native_qty": 0.013445871
     },
     "binance": {
       "address": "0xDcC338A2799dFf84A4b9f672b0De814332b554B0",
-      "equity_usd": 32.63629024861923,
+      "equity_usd": 32.45593795032335,
       "principal_usd": 150.0,
       "native_qty": 0.04672339334090083,
       "chain": "BSC",
@@ -220,7 +208,7 @@
       "solana": "CDG5WQyK4Eft49SYBN7ct1B48mjeShhtoU3FAaaqzuJk",
       "evm": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5"
     },
-    "total_usd": 10.469108124094054,
+    "total_usd": 10.401025551303608,
     "chains": [
       {
         "caip2": "eip155:1",
@@ -229,11 +217,11 @@
         "native": {
           "symbol": "ETH",
           "qty": 0.00383836,
-          "price_usd": 2243.46349362,
-          "usd": 8.611220535371263
+          "price_usd": 2228.59516084,
+          "usd": 8.554150521561823
         },
         "holdings": [],
-        "total_usd": 8.611220535371263
+        "total_usd": 8.554150521561823
       },
       {
         "caip2": "eip155:8453",
@@ -242,11 +230,11 @@
         "native": {
           "symbol": "ETH",
           "qty": 0.000285724124273998,
-          "price_usd": 2243.10399222,
-          "usd": 0.6409089238325683
+          "price_usd": 2228.59516084,
+          "usd": 0.6367634006922788
         },
         "holdings": [],
-        "total_usd": 0.6409089238325683
+        "total_usd": 0.6367634006922788
       },
       {
         "caip2": "solana:101",
@@ -255,16 +243,16 @@
         "native": {
           "symbol": "SOL",
           "qty": 0.013445871,
-          "price_usd": 90.50947052,
-          "usd": 1.2169786648902228
+          "price_usd": 89.99875345,
+          "usd": 1.2101116290495049
         },
         "holdings": [],
-        "total_usd": 1.2169786648902228
+        "total_usd": 1.2101116290495049
       }
     ]
   },
   "accounts": {
-    "as_of_hkt": "2026-11-06 20:29:28 HKT",
+    "as_of_hkt": "2026-11-06 22:33:52 HKT",
     "cards": [
       {
         "id": "hl",
@@ -272,12 +260,12 @@
         "kind": "hyperliquid",
         "address": "0x434aac14e137f4c1c841fe3e5e53ce88ad241571",
         "principal_usd": 198.11,
-        "equity_usd": 181.26823,
-        "pnl_usd": -16.84177,
-        "pnl_pct": -0.08501221543586908,
+        "equity_usd": 143.857236,
+        "pnl_usd": -54.2528,
+        "pnl_pct": -0.273852,
         "source": "hl_info",
         "note": "",
-        "as_of_hkt": "2026-11-06 20:29:28 HKT"
+        "as_of_hkt": "2026-11-06 22:33:52 HKT"
       },
       {
         "id": "eth",
@@ -285,12 +273,12 @@
         "kind": "evm",
         "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
         "principal_usd": 99.5,
-        "equity_usd": 8.611220535371263,
-        "pnl_usd": -90.88877946462874,
-        "pnl_pct": -0.9134550699962688,
-        "source": "phantom",
+        "equity_usd": 8.554150521561823,
+        "pnl_usd": -90.94584947843818,
+        "pnl_pct": -0.914028637974253,
+        "source": "etherscan+binance_price",
         "note": "Phantom Ethereum native",
-        "as_of_hkt": "2026-11-06 20:29:28 HKT"
+        "as_of_hkt": "2026-11-06 22:33:52 HKT"
       },
       {
         "id": "base",
@@ -298,12 +286,12 @@
         "kind": "evm",
         "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
         "principal_usd": 99.74,
-        "equity_usd": 0.6409089238325683,
-        "pnl_usd": -99.09909107616743,
-        "pnl_pct": -0.9935742036912716,
-        "source": "phantom",
+        "equity_usd": 0.6367634006922788,
+        "pnl_usd": -99.10323659930772,
+        "pnl_pct": -0.9936157669872441,
+        "source": "etherscan+eth_price",
         "note": "Phantom Base native",
-        "as_of_hkt": "2026-11-06 20:29:28 HKT"
+        "as_of_hkt": "2026-11-06 22:33:52 HKT"
       },
       {
         "id": "binance",
@@ -311,26 +299,24 @@
         "kind": "binance_onchain",
         "address": "0xDcC338A2799dFf84A4b9f672b0De814332b554B0",
         "principal_usd": 150.0,
-        "equity_usd": 32.63629024861923,
-        "pnl_usd": -117.36370975138077,
-        "pnl_pct": -0.7824247316758718,
+        "equity_usd": 32.45593795032335,
+        "pnl_usd": -117.54406204967665,
+        "pnl_pct": -0.7836270803311777,
         "source": "bsc_native",
         "note": "鏈上 BSC native only；CEX 餘額唔喺地址",
-        "as_of_hkt": "2026-11-06 20:29:28 HKT",
+        "as_of_hkt": "2026-11-06 22:33:52 HKT",
         "mismatch": true,
-        "mismatch_note": "鏈上 ≈$32.64 vs 本金 $150（CEX 資金多半唔喺呢個地址）"
+        "mismatch_note": "鏈上 ≈$32.46 vs 本金 $150（CEX 資金多半唔喺呢個地址）"
       }
     ],
     "total_principal_usd": 547.35,
-    "total_equity_usd": 223.15664970782308,
-    "total_pnl_usd": -324.19335029217694,
-    "total_pnl_pct": -0.5922962460805279
+    "total_equity_usd": 185.50408787257746,
+    "total_pnl_usd": -361.8459121274226,
+    "total_pnl_pct": -0.661086895272536
   },
   "ledger": {
-    "as_of_hkt": "2026-11-06 20:29:28 HKT",
-    "notion_parent": "https://app.notion.com/p/40ee4200be0a8150b4add9014d39b958",
     "summary": {
-      "as_of_hkt": "2026-11-06 20:29:28 HKT",
+      "as_of_hkt": "2026-11-06 22:33:52 HKT",
       "closed_with_pnl": 42,
       "wins": 14,
       "losses": 27,
@@ -338,9 +324,9 @@
       "win_rate_pct": 34.1,
       "sum_realized_pnl": -15.98694,
       "open": 2,
-      "hl_equity": 181.26823,
-      "hl_pnl_usd": -16.84177,
-      "hl_pnl_pct_display": "-8.50%",
+      "hl_equity": 143.857236,
+      "hl_pnl_usd": -54.2528,
+      "hl_pnl_pct_display": "-27.39%",
       "strategies": [
         {
           "strategy": "Profile D scalp",
@@ -368,68 +354,38 @@
         }
       ]
     },
-    "open": [
-      {
-        "coin": "HYPE",
-        "strategy": "swing",
-        "side": "空",
-        "uPnL": -0.06141
-      },
-      {
-        "coin": "BTC",
-        "strategy": "人手／marco_manual",
-        "side": "多",
-        "uPnL": 5.48268
-      }
-    ],
     "recent_closed": [
       {
-        "coin": "LTC",
-        "side": "多",
-        "strategy": "Profile D scalp",
-        "closedPnl": 0.3675,
-        "close_ts_hkt": "2026-11-05 20:14:50 HKT",
-        "name": "2026-11-04 LTC Profile D scalp long"
+        "coin": "BTC",
+        "side": "空",
+        "strategy": "其他",
+        "closedPnl": -6.95506,
+        "close_ts_hkt": "2026-11-06 17:13:51 HKT",
+        "name": "2026-11-06 BTC Marco manual short"
       },
       {
-        "coin": "ARB",
-        "side": "多",
-        "strategy": "Profile D scalp",
-        "closedPnl": -0.49268,
-        "close_ts_hkt": "2026-11-05 20:14:57 HKT",
-        "name": "2026-11-05 ARB Profile D scalp long"
-      },
-      {
-        "coin": "SEI",
+        "coin": "CRV",
         "side": "空",
         "strategy": "Profile D scalp",
-        "closedPnl": -0.241257,
-        "close_ts_hkt": "2026-11-05 20:15:02 HKT",
-        "name": "2026-11-04 SEI Profile D scalp short"
+        "closedPnl": -0.36482,
+        "close_ts_hkt": "2026-11-06 03:15:31 HKT",
+        "name": "2026-11-06 CRV Profile D scalp short"
       },
       {
-        "coin": "TIA",
-        "side": "空",
-        "strategy": "Profile D scalp",
-        "closedPnl": 0.89995,
-        "close_ts_hkt": "2026-11-05 20:15:07 HKT",
-        "name": "2026-11-01 TIA Profile D scalp short"
+        "coin": "BNB",
+        "side": "多",
+        "strategy": "swing",
+        "closedPnl": -0.5298,
+        "close_ts_hkt": "2026-11-05 23:10:43 HKT",
+        "name": "2026-11-05 BNB swing long"
       },
       {
-        "coin": "ADA",
+        "coin": "LINK",
         "side": "多",
         "strategy": "Profile D scalp",
-        "closedPnl": -0.06048,
-        "close_ts_hkt": "2026-11-05 20:15:12 HKT",
-        "name": "2026-11-05 ADA Profile D scalp long"
-      },
-      {
-        "coin": "XMR",
-        "side": "多",
-        "strategy": "Profile D scalp",
-        "closedPnl": 0.0378,
-        "close_ts_hkt": "2026-11-05 20:15:18 HKT",
-        "name": "2026-11-04 XMR Profile D scalp long"
+        "closedPnl": -0.2192,
+        "close_ts_hkt": "2026-11-05 20:33:31 HKT",
+        "name": "2026-11-05 LINK Profile D scalp long"
       },
       {
         "coin": "SOL",
@@ -440,14 +396,49 @@
         "name": "2026-11-04 SOL swing long"
       },
       {
-        "coin": "LINK",
+        "coin": "XMR",
         "side": "多",
         "strategy": "Profile D scalp",
-        "closedPnl": -0.2192,
-        "close_ts_hkt": "2026-11-05 20:33:31 HKT",
-        "name": "2026-11-05 LINK Profile D scalp long"
+        "closedPnl": 0.0378,
+        "close_ts_hkt": "2026-11-05 20:15:18 HKT",
+        "name": "2026-11-04 XMR Profile D scalp long"
+      },
+      {
+        "coin": "ADA",
+        "side": "多",
+        "strategy": "Profile D scalp",
+        "closedPnl": -0.06048,
+        "close_ts_hkt": "2026-11-05 20:15:12 HKT",
+        "name": "2026-11-05 ADA Profile D scalp long"
+      },
+      {
+        "coin": "TIA",
+        "side": "空",
+        "strategy": "Profile D scalp",
+        "closedPnl": 0.89995,
+        "close_ts_hkt": "2026-11-05 20:15:07 HKT",
+        "name": "2026-11-01 TIA Profile D scalp short"
       }
-    ]
+    ],
+    "open": [
+      {
+        "coin": "HYPE",
+        "strategy": "swing",
+        "side": "空",
+        "uPnL": 0.09246,
+        "entry": 78.331,
+        "size": 0.23
+      },
+      {
+        "coin": "BTC",
+        "strategy": "人手／marco_manual",
+        "side": "多",
+        "uPnL": -31.99728,
+        "entry": 76121.0,
+        "size": 0.04494
+      }
+    ],
+    "notion_parent": "https://app.notion.com/p/40ee4200be0a8150b4add9014d39b958"
   },
   "sniper": {
     "as_of_hkt": "2026-11-04 11:18:53 HKT",
@@ -476,7 +467,7 @@
     }
   },
   "runtime": {
-    "as_of_hkt": "2026-11-06 20:29:28 HKT",
+    "as_of_hkt": "2026-11-06 22:33:52 HKT",
     "enable_scalp": true,
     "enable_swing": true,
     "enable_event": true,
@@ -484,5 +475,5 @@
     "EVENT_SHADOW_MODE": false,
     "note": "event LIVE；enable_scalp=true（Marco 01:45 Resume）"
   },
-  "updated_hkt": "2026-11-06 20:29:28 HKT"
+  "updated_hkt": "2026-11-06 22:33:52 HKT"
 }

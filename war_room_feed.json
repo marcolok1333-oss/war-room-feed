@@ -1,6 +1,6 @@
 {
   "schema": "war_room_feed/v1",
-  "as_of_hkt": "2026-11-06 18:57:45 HKT",
+  "as_of_hkt": "2026-11-06 19:32:15 HKT",
   "principal": 198.11,
   "capital_note": "",
   "strategies": [
@@ -19,7 +19,7 @@
       "label": "event",
       "family": "event",
       "status": "live",
-      "note": "LIVE（非 shadow）：EVENT_SHADOW_MODE=false + EVENT_LIVE／三重閘／--live；過閘可真開倉。常設硬頂 ≤$100／≤3x。對齊 @ 2026-11-06 18:22:49 HKT"
+      "note": "LIVE（非 shadow）：EVENT_SHADOW_MODE=false + EVENT_LIVE／三重閘／--live；過閘可真開倉。常設硬頂 ≤$100／≤3x。對齊 @ 2026-11-06 19:32:15 HKT"
     },
     {
       "id": "elysium",
@@ -166,31 +166,31 @@
     "display_rule": "pool_pct_of_equity × within_pool 只係佔池估算／預算，唔係已投金額；UI 標籤必須寫「佔池估算」，禁止寫「投咗」。"
   },
   "wallets": {
-    "as_of_hkt": "2026-11-06 18:22:49 HKT",
+    "as_of_hkt": "2026-11-06 19:32:15 HKT",
     "eth": {
       "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
-      "equity_usd": 98.10435746802172,
+      "equity_usd": 98.15056082180867,
       "principal_usd": 99.5
     },
     "base": {
       "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
-      "equity_usd": 98.34608235130932,
+      "equity_usd": 98.38651977803127,
       "principal_usd": 99.74
     },
     "sol": {
       "address": "CDG5WQyK4Eft49SYBN7ct1B48mjeShhtoU3FAaaqzuJk",
-      "equity_usd": 92.77288638777001
+      "equity_usd": 93.15578077220022
     },
     "binance": {
       "address": "0xDcC338A2799dFf84A4b9f672b0De814332b554B0",
-      "equity_usd": 32.408980940015745,
+      "equity_usd": 32.48537368812812,
       "principal_usd": 150.0
     },
     "addresses": {
       "solana": "CDG5WQyK4Eft49SYBN7ct1B48mjeShhtoU3FAaaqzuJk",
       "evm": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5"
     },
-    "total_usd": 289.778375402262,
+    "total_usd": 289.69286137204017,
     "chains": [
       {
         "id": "ethereum",
@@ -200,10 +200,10 @@
           "symbol": "ETH",
           "quantity": 0.04388036,
           "price_usd": 2238.0407261,
-          "usd": 98.2060327559294
+          "usd": 98.15056082180867
         },
         "holdings": [],
-        "total_usd": 98.2060327559294,
+        "total_usd": 98.15056082180867,
         "as_of_hkt": "2026-11-06 18:22:49 HKT"
       },
       {
@@ -214,10 +214,10 @@
           "symbol": "ETH",
           "quantity": 0.04398585062437931,
           "price_usd": 2238.09071886,
-          "usd": 98.44432404358567
+          "usd": 98.38651977803127
         },
         "holdings": [],
-        "total_usd": 98.44432404358567,
+        "total_usd": 98.38651977803127,
         "as_of_hkt": "2026-11-06 18:22:49 HKT"
       },
       {
@@ -228,16 +228,16 @@
           "symbol": "SOL",
           "quantity": 1.03345087,
           "price_usd": 90.11363898,
-          "usd": 93.12801860274692
+          "usd": 93.15578077220022
         },
         "holdings": [],
-        "total_usd": 93.12801860274692,
+        "total_usd": 93.15578077220022,
         "as_of_hkt": "2026-11-06 18:22:49 HKT"
       }
     ]
   },
   "accounts": {
-    "as_of_hkt": "2026-11-06 18:57:45 HKT",
+    "as_of_hkt": "2026-11-06 19:32:15 HKT",
     "cards": [
       {
         "id": "hl",
@@ -245,12 +245,12 @@
         "kind": "hyperliquid",
         "address": "0x434aac14e137f4c1c841fe3e5e53ce88ad241571",
         "principal_usd": 198.11,
-        "equity_usd": 176.734447,
-        "pnl_usd": -21.3756,
-        "pnl_pct": -0.107897,
+        "equity_usd": 174.499122,
+        "pnl_usd": -23.6109,
+        "pnl_pct": -0.119181,
         "source": "hl_info",
         "note": "",
-        "as_of_hkt": "2026-11-06 18:57:45 HKT"
+        "as_of_hkt": "2026-11-06 19:32:15 HKT"
       },
       {
         "id": "eth",
@@ -258,12 +258,12 @@
         "kind": "phantom",
         "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
         "principal_usd": 99.5,
-        "equity_usd": 98.14862943127369,
-        "pnl_usd": -1.3513705687263098,
-        "pnl_pct": -0.013581613756043314,
+        "equity_usd": 98.15056082180867,
+        "pnl_usd": -1.3494391781913322,
+        "pnl_pct": -0.013562202795892786,
         "source": "phantom",
         "note": "Phantom Ethereum native",
-        "as_of_hkt": "2026-11-06 18:57:45 HKT"
+        "as_of_hkt": "2026-11-06 19:32:15 HKT"
       },
       {
         "id": "base",
@@ -271,12 +271,12 @@
         "kind": "phantom",
         "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
         "principal_usd": 99.74,
-        "equity_usd": 98.3845837443349,
-        "pnl_usd": -1.3554162556650908,
-        "pnl_pct": -0.013589495244286053,
+        "equity_usd": 98.38651977803127,
+        "pnl_usd": -1.3534802219687236,
+        "pnl_pct": -0.013570084439229232,
         "source": "phantom",
         "note": "Phantom Base native",
-        "as_of_hkt": "2026-11-06 18:57:45 HKT"
+        "as_of_hkt": "2026-11-06 19:32:15 HKT"
       },
       {
         "id": "binance",
@@ -284,22 +284,22 @@
         "kind": "binance_onchain",
         "address": "0xDcC338A2799dFf84A4b9f672b0De814332b554B0",
         "principal_usd": 150.0,
-        "equity_usd": 32.48210305059426,
-        "pnl_usd": -117.51789694940574,
-        "pnl_pct": -0.7834526463293716,
+        "equity_usd": 32.48537368812812,
+        "pnl_usd": -117.51462631187188,
+        "pnl_pct": -0.7834308420791458,
         "source": "etherscan_bsc",
         "note": "鏈上 BSC native only；CEX 餘額未必喺呢個地址",
-        "as_of_hkt": "2026-11-06 18:57:45 HKT"
+        "as_of_hkt": "2026-11-06 19:32:15 HKT"
       }
     ],
     "total_principal_usd": 547.35,
-    "total_equity_usd": 405.74976322620284,
-    "total_pnl_usd": -141.60023677379718,
-    "total_pnl_pct": -0.258701446558504
+    "total_equity_usd": 403.52157628796806,
+    "total_pnl_usd": -143.82842371203196,
+    "total_pnl_pct": -0.26277230969586546
   },
   "ledger": {
     "summary": {
-      "as_of_hkt": "2026-11-06 18:57:45 HKT",
+      "as_of_hkt": "2026-11-06 19:32:15 HKT",
       "closed_with_pnl": 42,
       "wins": 14,
       "losses": 27,
@@ -307,9 +307,9 @@
       "win_rate_pct": 34.1,
       "sum_realized_pnl": -15.98694,
       "open": 2,
-      "hl_equity": 176.734447,
-      "hl_pnl_usd": -21.3756,
-      "hl_pnl_pct_display": "-10.79%",
+      "hl_equity": 174.499122,
+      "hl_pnl_usd": -23.6109,
+      "hl_pnl_pct_display": "-11.92%",
       "strategies": [
         {
           "strategy": "Profile D scalp",
@@ -453,9 +453,9 @@
     "enable_event": true,
     "event_status": "LIVE",
     "event_shadow_mode": false,
-    "as_of_hkt": "2026-11-06 18:57:45 HKT",
+    "as_of_hkt": "2026-11-06 19:32:15 HKT",
     "note": "strategy_overrides enable_scalp=true; event_run --live pid alive; EVENT_SHADOW_MODE=false",
     "EVENT_SHADOW_MODE": false
   },
-  "updated_hkt": "2026-11-06 18:57:45 HKT"
+  "updated_hkt": "2026-11-06 19:32:15 HKT"
 }

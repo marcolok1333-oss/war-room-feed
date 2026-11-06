@@ -25,33 +25,39 @@
       "id": "elysium",
       "label": "elysium",
       "family": "narrative",
-      "status": "trial",
+      "status": "stopped",
       "venue": "hyperliquid",
       "basket": false,
       "invested_usd": null,
-      "invested_status": "未逐項",
+      "invested_status": "未投／已停用",
       "invested_note": "已投金額只顯示交易側記入嘅真倉；唔好用 sleeve 估算冒充",
       "source_url": "https://elysium.kinetiq.xyz/docs/what-is-elysium",
-      "blurb": "Elysium／HYPE 敘事；條件未齊唔加。"
+      "blurb": "Elysium／HYPE 敘事；條件未齊唔加。",
+      "invested": false,
+      "stop_note": "Marco 2026-11-06 19:51：ETH／Base／Sol 掃描同策略完全停止",
+      "stopped_at_hkt": "2026-11-06 19:51 HKT"
     },
     {
       "id": "base-denim",
       "label": "base-denim",
       "family": "narrative",
-      "status": "trial",
+      "status": "stopped",
       "venue": "base",
       "basket": true,
       "invested_usd": null,
-      "invested_status": "未逐項",
+      "invested_status": "未投／已停用",
       "invested_note": "已投金額只顯示交易側記入嘅真倉；唔好用 sleeve 估算冒充",
       "source_url": "https://docs.base.org/upgrades/denim/overview",
-      "blurb": "Base Denim 硬分叉敘事；無量＝零倉。"
+      "blurb": "Base Denim 硬分叉敘事；無量＝零倉。",
+      "invested": false,
+      "stop_note": "Marco 2026-11-06 19:51：ETH／Base／Sol 掃描同策略完全停止",
+      "stopped_at_hkt": "2026-11-06 19:51 HKT"
     },
     {
       "id": "solana-narrative",
       "label": "solana-narrative",
       "family": "narrative",
-      "status": "watch_only",
+      "status": "stopped",
       "invested": false,
       "note": "未入場／試作。監控 DexScreener（DESSA／SIS）；禁止 solana.com；唔顯示固定買入價帶。",
       "links": [
@@ -67,7 +73,7 @@
       "venue": "binance",
       "basket": true,
       "invested_usd": null,
-      "invested_status": "未入場",
+      "invested_status": "未投／已停用",
       "invested_note": "未入場。禁止用 sleeve 佔池估算顯示成「投咗」。",
       "source_url": null,
       "source_label": null,
@@ -78,7 +84,9 @@
         "PAWCAT高位",
         "KIM copycat",
         "BLEP"
-      ]
+      ],
+      "stop_note": "Marco 2026-11-06 19:51：ETH／Base／Sol 掃描同策略完全停止",
+      "stopped_at_hkt": "2026-11-06 19:51 HKT"
     }
   ],
   "position_tags": {
@@ -86,6 +94,10 @@
     "BTC": "marco_manual"
   },
   "notes": [
+    {
+      "ts_hkt": "2026-11-06 19:58 HKT",
+      "text": "策略卡 elysium／base-denim／solana-narrative 標 stopped／未投（對齊 Marco 停掃）；sleeves.status=stopped。"
+    },
     {
       "ts_hkt": "2026-11-06 19:51 HKT",
       "text": "Marco 指示：停止 ETH／Base／Sol 相關掃描同策略（完全停止）。"
@@ -479,5 +491,5 @@
     "EVENT_SHADOW_MODE": false,
     "note": "event LIVE；enable_scalp=true（Marco 01:45 Resume）"
   },
-  "updated_hkt": "2026-11-06 19:52:30 HKT"
+  "updated_hkt": "2026-11-06 19:58 HKT"
 }

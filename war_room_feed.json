@@ -1,6 +1,6 @@
 {
   "schema": "war_room_feed/v1",
-  "as_of_hkt": "2026-11-07 09:42:12 HKT",
+  "as_of_hkt": "2026-11-07 10:17:11 HKT",
   "principal": 198.11,
   "capital_note": "",
   "strategies": [
@@ -178,46 +178,46 @@
     "display_rule": "pool_pct_of_equity × within_pool 只係佔池估算／預算，唔係已投金額；UI 標籤必須寫「佔池估算」，禁止寫「投咗」。",
     "stopped_at_hkt": "2026-11-06 19:51 HKT",
     "stop_note": "Marco：ETH／Base／Sol 掃描同策略完全停止；elysium／base-denim／solana-narrative 停用",
-    "as_of_hkt": "2026-11-07 09:42:12 HKT"
+    "as_of_hkt": "2026-11-07 10:17:11 HKT"
   },
   "wallets": {
-    "as_of_hkt": "2026-11-07 09:42:12 HKT",
+    "as_of_hkt": "2026-11-07 10:17:11 HKT",
     "eth": {
       "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
-      "equity_usd": 8.6199585864,
+      "equity_usd": 8.6320494204,
       "principal_usd": 99.5,
       "native_qty": 0.00383836,
       "note": "etherscan native + binance ETHUSDT（Phantom MCP 今輪 schema 失敗）",
-      "as_of_hkt": "2026-11-07 09:42:12 HKT"
+      "as_of_hkt": "2026-11-07 10:17:11 HKT"
     },
     "base": {
       "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
-      "equity_usd": 0.6416620948470882,
+      "equity_usd": 0.6425621258385513,
       "principal_usd": 99.74,
       "native_qty": 0.000285724124273998,
       "note": "etherscan native + binance ETHUSDT（Phantom MCP 今輪 schema 失敗）",
-      "as_of_hkt": "2026-11-07 09:42:12 HKT"
+      "as_of_hkt": "2026-11-07 10:17:11 HKT"
     },
     "sol": {
       "address": "CDG5WQyK4Eft49SYBN7ct1B48mjeShhtoU3FAaaqzuJk",
-      "equity_usd": 1.21631349066,
+      "equity_usd": 1.21873374744,
       "native_qty": 0.013445871,
-      "as_of_hkt": "2026-11-07 09:42:12 HKT"
+      "as_of_hkt": "2026-11-07 10:17:11 HKT"
     },
     "binance": {
       "address": "0xDcC338A2799dFf84A4b9f672b0De814332b554B0",
-      "equity_usd": 32.50546474726471,
+      "equity_usd": 32.54985197093856,
       "principal_usd": 150.0,
       "native_qty": 0.04672339334090083,
       "chain": "BSC",
       "note": "on-chain BSC native only；CEX 餘額未必喺呢個地址",
-      "as_of_hkt": "2026-11-07 09:42:12 HKT"
+      "as_of_hkt": "2026-11-07 10:17:11 HKT"
     },
     "addresses": {
       "solana": "CDG5WQyK4Eft49SYBN7ct1B48mjeShhtoU3FAaaqzuJk",
       "evm": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5"
     },
-    "total_usd": 10.477934171907087,
+    "total_usd": 10.493345293678551,
     "chains": [
       {
         "caip2": "eip155:1",
@@ -226,11 +226,11 @@
         "native": {
           "symbol": "ETH",
           "qty": 0.00383836,
-          "price_usd": 2245.74,
-          "usd": 8.6199585864
+          "price_usd": 2248.89,
+          "usd": 8.6320494204
         },
         "holdings": [],
-        "total_usd": 8.6199585864
+        "total_usd": 8.6320494204
       },
       {
         "caip2": "eip155:8453",
@@ -239,11 +239,11 @@
         "native": {
           "symbol": "ETH",
           "qty": 0.000285724124273998,
-          "price_usd": 2245.74,
-          "usd": 0.6416620948470882
+          "price_usd": 2248.89,
+          "usd": 0.6425621258385513
         },
         "holdings": [],
-        "total_usd": 0.6416620948470882
+        "total_usd": 0.6425621258385513
       },
       {
         "caip2": "solana:101",
@@ -252,16 +252,16 @@
         "native": {
           "symbol": "SOL",
           "qty": 0.013445871,
-          "price_usd": 90.46,
-          "usd": 1.21631349066
+          "price_usd": 90.64,
+          "usd": 1.21873374744
         },
         "holdings": [],
-        "total_usd": 1.21631349066
+        "total_usd": 1.21873374744
       }
     ]
   },
   "accounts": {
-    "as_of_hkt": "2026-11-07 09:42:12 HKT",
+    "as_of_hkt": "2026-11-07 10:17:11 HKT",
     "cards": [
       {
         "id": "hl",
@@ -269,12 +269,12 @@
         "kind": "hyperliquid",
         "address": "0x434aac14e137f4c1c841fe3e5e53ce88ad241571",
         "principal_usd": 198.11,
-        "equity_usd": 169.669144,
-        "pnl_usd": -28.4409,
-        "pnl_pct": -0.143561,
+        "equity_usd": 172.210752,
+        "pnl_usd": -25.8992,
+        "pnl_pct": -0.130732,
         "source": "hl_info",
         "note": "",
-        "as_of_hkt": "2026-11-07 09:42:12 HKT"
+        "as_of_hkt": "2026-11-07 10:17:11 HKT"
       },
       {
         "id": "eth",
@@ -282,12 +282,12 @@
         "kind": "evm",
         "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
         "principal_usd": 99.5,
-        "equity_usd": 8.6199585864,
-        "pnl_usd": -90.8800414136,
-        "pnl_pct": -0.9133672503879396,
+        "equity_usd": 8.6320494204,
+        "pnl_usd": -90.8679505796,
+        "pnl_pct": -0.9132457344683418,
         "source": "etherscan_native",
         "note": "Phantom Ethereum native",
-        "as_of_hkt": "2026-11-07 09:42:12 HKT"
+        "as_of_hkt": "2026-11-07 10:17:11 HKT"
       },
       {
         "id": "base",
@@ -295,12 +295,12 @@
         "kind": "evm",
         "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
         "principal_usd": 99.74,
-        "equity_usd": 0.6416620948470882,
-        "pnl_usd": -99.0983379051529,
-        "pnl_pct": -0.993566652347633,
+        "equity_usd": 0.6425621258385513,
+        "pnl_usd": -99.09743787416144,
+        "pnl_pct": -0.9935576285759119,
         "source": "etherscan_native",
         "note": "Phantom Base native",
-        "as_of_hkt": "2026-11-07 09:42:12 HKT"
+        "as_of_hkt": "2026-11-07 10:17:11 HKT"
       },
       {
         "id": "binance",
@@ -308,19 +308,19 @@
         "kind": "binance_onchain",
         "address": "0xDcC338A2799dFf84A4b9f672b0De814332b554B0",
         "principal_usd": 150.0,
-        "equity_usd": 32.50546474726471,
-        "pnl_usd": -117.49453525273529,
-        "pnl_pct": -0.783296901684902,
+        "equity_usd": 32.54985197093856,
+        "pnl_usd": -117.45014802906144,
+        "pnl_pct": -0.7830009868604096,
         "source": "bsc_native",
         "note": "鏈上 BSC native only；CEX 資金唔喺地址（已知）",
-        "as_of_hkt": "2026-11-07 09:42:12 HKT",
+        "as_of_hkt": "2026-11-07 10:17:11 HKT",
         "mismatch": true,
-        "mismatch_note": "鏈上 ≈$32.51 vs 本金 $150（CEX 資金多半唔喺呢個地址）"
+        "mismatch_note": "鏈上 ≈$32.55 vs 本金 $150（CEX 資金多半唔喺呢個地址）"
       }
     ]
   },
   "ledger": {
-    "as_of_hkt": "2026-11-07 09:42:12 HKT",
+    "as_of_hkt": "2026-11-07 10:17:11 HKT",
     "summary": {
       "n_rounds": 42,
       "wins": 14,
@@ -433,7 +433,7 @@
         "coin": "HYPE",
         "strategy": "swing",
         "side": "空",
-        "uPnL": -0.188968,
+        "uPnL": -0.21114,
         "entry": 78.331,
         "leverage": 3.0
       },
@@ -441,7 +441,7 @@
         "coin": "BTC",
         "strategy": "人手／marco_manual",
         "side": "多",
-        "uPnL": -5.34786,
+        "uPnL": -2.83122,
         "entry": 76121.0,
         "leverage": 20.0
       }
@@ -475,7 +475,7 @@
     }
   },
   "runtime": {
-    "as_of_hkt": "2026-11-07 09:42:12 HKT",
+    "as_of_hkt": "2026-11-07 10:17:11 HKT",
     "enable_scalp": true,
     "enable_swing": true,
     "enable_event": true,
@@ -484,5 +484,5 @@
     "note": "event LIVE；enable_scalp=true（Marco 01:45 Resume）",
     "robin_cat": "paused"
   },
-  "updated_hkt": "2026-11-07 09:42:12 HKT"
+  "updated_hkt": "2026-11-07 10:17:11 HKT"
 }

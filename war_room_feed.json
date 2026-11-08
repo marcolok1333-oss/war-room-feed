@@ -1,6 +1,6 @@
 {
   "schema": "war_room_feed/v1",
-  "as_of_hkt": "2026-11-08 20:51:02 HKT",
+  "as_of_hkt": "2026-11-08 21:21:49 HKT",
   "principal": 198.11,
   "capital_note": "",
   "strategies": [
@@ -19,7 +19,7 @@
       "label": "event",
       "family": "event",
       "status": "live",
-      "note": "LIVE（非 shadow）：EVENT_SHADOW_MODE=false + EVENT_LIVE／三重閘／--live；過閘可真開倉。常設硬頂 ≤$100／≤3x。對齊 @ 2026-11-08 20:51:02 HKT"
+      "note": "LIVE（非 shadow）：EVENT_SHADOW_MODE=false + EVENT_LIVE／三重閘／--live；過閘可真開倉。常設硬頂 ≤$100／≤3x。對齊 @ 2026-11-08 21:21:49 HKT"
     },
     {
       "id": "elysium",
@@ -143,7 +143,7 @@
     "invested": false
   },
   "wallets": {
-    "as_of_hkt": "2026-11-08 20:52:15 HKT",
+    "as_of_hkt": "2026-11-08 21:21:49 HKT",
     "source": "public_rpc+binance_price",
     "phantom": {
       "solana": "CDG5WQyK4Eft49SYBN7ct1B48mjeShhtoU3FAaaqzuJk",
@@ -154,82 +154,82 @@
       "base_native": 0.000285724124273998,
       "bnb_native": 0.04671591590294879,
       "sol_native": 0.013445871,
-      "eth_usd": 8.592936532,
-      "base_usd": 0.6396505970121993,
-      "bnb_usd": 32.64508203298061,
-      "sol_usd": 1.2039432893400002,
-      "eth_px": 2238.7,
-      "bnb_px": 698.8,
-      "sol_px": 89.54
+      "eth_usd": 8.618461626,
+      "base_usd": 0.6415506624386214,
+      "bnb_usd": 32.707214201131535,
+      "sol_usd": 1.20864934419,
+      "eth_px": 2245.35,
+      "bnb_px": 700.13,
+      "sol_px": 89.89
     },
     "note": "Phantom MCP wallet_balances schema broken (logoUri null); public RPC+Binance fallback"
   },
   "accounts": {
-    "as_of_hkt": "2026-11-08 20:51:02 HKT",
+    "as_of_hkt": "2026-11-08 21:21:49 HKT",
     "cards": [
       {
         "id": "hl",
         "label": "HL",
         "principal_usd": 198.11,
-        "equity_usd": 165.331227,
-        "pnl_usd": -32.779,
-        "pnl_pct": -0.165459,
-        "pnl_pct_display": "-16.55%",
+        "equity_usd": 175.748833,
+        "pnl_usd": -22.361167,
+        "pnl_pct": -0.11287247993538942,
+        "pnl_pct_display": "-11.29%",
         "wallet": "0x434aac14e137f4c1c841fe3e5e53ce88ad241571",
         "kind": "hyperliquid",
         "address": "0x434aac14e137f4c1c841fe3e5e53ce88ad241571",
         "source": "hyperliquid clearinghouseState",
         "note": "",
-        "as_of_hkt": "2026-11-08 20:51:02 HKT"
+        "as_of_hkt": "2026-11-08 21:21:49 HKT"
       },
       {
         "id": "eth",
         "label": "ETH",
         "principal_usd": 99.5,
-        "equity_usd": 8.592936532,
-        "pnl_usd": -90.907063468,
-        "pnl_pct": -0.9136388288241206,
+        "equity_usd": 8.618461626,
+        "pnl_usd": -90.881538374,
+        "pnl_pct": -0.9133822952160804,
         "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
         "kind": "evm",
         "source": "public_rpc+binance",
         "note": "public RPC native + Binance prices（本次 Phantom MCP logoUri schema 錯誤，未用）",
-        "as_of_hkt": "2026-11-08 20:51:02 HKT"
+        "as_of_hkt": "2026-11-08 21:21:49 HKT"
       },
       {
         "id": "base",
         "label": "Base",
         "principal_usd": 99.74,
-        "equity_usd": 0.6396505970121993,
-        "pnl_usd": -99.1003494029878,
-        "pnl_pct": -0.9935868197612574,
+        "equity_usd": 0.6415506624386214,
+        "pnl_usd": -99.09844933756138,
+        "pnl_pct": -0.9935677695765127,
         "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
         "kind": "evm",
         "source": "public_rpc+binance",
         "note": "public RPC native + Binance prices（本次 Phantom MCP logoUri schema 錯誤，未用）",
-        "as_of_hkt": "2026-11-08 20:51:02 HKT"
+        "as_of_hkt": "2026-11-08 21:21:49 HKT"
       },
       {
         "id": "binance",
         "label": "幣安",
         "principal_usd": 150.0,
-        "equity_usd": 32.64508203298061,
-        "pnl_usd": -117.35491796701939,
-        "pnl_pct": -0.7823661197801293,
+        "equity_usd": 32.707214201131535,
+        "pnl_usd": -117.29278579886847,
+        "pnl_pct": -0.7819519053257897,
         "note": "鏈上 BSC 現值；CEX 本金可能唔喺呢個地址（已知 gap）",
         "address": "0xDcC338A2799dFf84A4b9f672b0De814332b554B0",
         "kind": "binance_onchain",
         "source": "public RPC BSC + Binance BNBUSDT",
-        "as_of_hkt": "2026-11-08 20:51:02 HKT",
+        "as_of_hkt": "2026-11-08 21:21:49 HKT",
         "mismatch": true,
         "mismatch_note": "鏈上 BSC 現值；CEX 本金可能唔喺呢個地址（已知 gap）"
       }
     ],
     "total_principal_usd": 547.35,
-    "total_equity_usd": 207.20889616199284,
-    "total_pnl_usd": -340.1411038380072
+    "total_equity_usd": 217.71605948957014,
+    "total_pnl_usd": -329.63394051042985
   },
   "ledger": {
-    "as_of_hkt": "2026-11-08 20:51:02 HKT",
+    "as_of_hkt": "2026-11-08 21:21:49 HKT",
     "summary": {
       "n_rounds": 42,
       "wins": 14,
@@ -366,7 +366,7 @@
     }
   },
   "runtime": {
-    "as_of_hkt": "2026-11-08 20:51:02 HKT",
+    "as_of_hkt": "2026-11-08 21:21:49 HKT",
     "event_status": "LIVE",
     "EVENT_SHADOW_MODE": false,
     "enable_scalp": true,
@@ -380,5 +380,5 @@
       "invested": false
     }
   },
-  "updated_hkt": "2026-11-08 20:51:02 HKT"
+  "updated_hkt": "2026-11-08 21:21:49 HKT"
 }

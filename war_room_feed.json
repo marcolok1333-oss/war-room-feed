@@ -1,6 +1,6 @@
 {
   "schema": "war_room_feed/v1",
-  "as_of_hkt": "2026-11-09 08:17:32 HKT",
+  "as_of_hkt": "2026-11-09 08:46:09 HKT",
   "principal": 198.11,
   "capital_note": "",
   "strategies": [
@@ -19,7 +19,7 @@
       "label": "event",
       "family": "event",
       "status": "live",
-      "note": "非 shadow：EVENT_SHADOW_MODE=false + EVENT_LIVE=true；但 enable_event=false（Marco 2026-11-08 21:50 手動停，overnight／scalp／swing 一併停）。人手 BTC 多已於 2026-11-09 05:55 HKT 被 SL 平倉；現倉剩 HYPE swing 空。常設硬頂 ≤$100／≤3x。對齊 @ 2026-11-09 08:17:32 HKT"
+      "note": "LIVE（非 shadow）：EVENT_SHADOW_MODE=false + EVENT_LIVE／三重閘／--live；過閘可真開倉。常設硬頂 ≤$100／≤3x。對齊 @ 2026-11-09 08:46:09 HKT"
     },
     {
       "id": "elysium",
@@ -142,7 +142,7 @@
     "invested": false
   },
   "wallets": {
-    "as_of_hkt": "2026-11-09 08:17:32 HKT",
+    "as_of_hkt": "2026-11-09 08:46:09 HKT",
     "source": "public_rpc+hyperliquid_allMids",
     "phantom": {
       "solana": "CDG5WQyK4Eft49SYBN7ct1B48mjeShhtoU3FAaaqzuJk",
@@ -153,84 +153,84 @@
       "base_native": 0.000285724124273998,
       "bnb_native": 0.04671591590294879,
       "sol_native": 0.013445871,
-      "eth_usd": 8.212363138,
-      "base_usd": 0.6113210500904325,
-      "bnb_usd": 32.13494423132041,
-      "sol_usd": 1.1729438337495,
-      "eth_px": 2139.55,
-      "bnb_px": 687.88,
-      "sol_px": 87.2345
+      "eth_usd": 8.199312714,
+      "base_usd": 0.6103495880679009,
+      "bnb_usd": 32.063001720829874,
+      "sol_usd": 1.1687487219975,
+      "eth_px": 2136.15,
+      "bnb_px": 686.34,
+      "sol_px": 86.9225
     },
     "note": "Phantom MCP wallet_balances schema broken (logoUri null); public RPC + Hyperliquid allMids fallback"
   },
   "accounts": {
-    "as_of_hkt": "2026-11-09 08:17:32 HKT",
+    "as_of_hkt": "2026-11-09 08:46:09 HKT",
     "cards": [
       {
         "id": "hl",
         "label": "HL",
         "principal_usd": 198.11,
-        "equity_usd": 81.88945,
-        "pnl_usd": -116.22055000000002,
-        "pnl_pct": -0.5866465599919237,
-        "pnl_pct_display": "-58.66%",
+        "equity_usd": 81.99617,
+        "pnl_usd": -116.11383000000001,
+        "pnl_pct": -0.586107869365504,
+        "pnl_pct_display": "-58.61%",
         "wallet": "0x434aac14e137f4c1c841fe3e5e53ce88ad241571",
         "kind": "hyperliquid",
         "address": "0x434aac14e137f4c1c841fe3e5e53ce88ad241571",
         "source": "hyperliquid unifiedAccount trading_equity",
-        "note": "unifiedAccount：trading_equity=max(perp AV 5.571558, spot USDC 81.88945)",
-        "as_of_hkt": "2026-11-09 08:17:32 HKT",
-        "perp_account_value": 5.571558,
-        "spot_usdc": 81.88945
+        "note": "unifiedAccount：trading_equity=max(perp AV 5.678278, spot USDC 81.99617)",
+        "as_of_hkt": "2026-11-09 08:46:09 HKT",
+        "perp_account_value": 5.678278,
+        "spot_usdc": 81.99617
       },
       {
         "id": "eth",
         "label": "ETH",
         "principal_usd": 99.5,
-        "equity_usd": 8.212363138,
-        "pnl_usd": -91.287636862,
-        "pnl_pct": -0.9174636870552764,
+        "equity_usd": 8.199312714,
+        "pnl_usd": -91.300687286,
+        "pnl_pct": -0.9175948470954773,
         "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
         "kind": "evm",
         "source": "public_rpc+hyperliquid_allMids",
         "note": "public RPC native + Hyperliquid allMids ETH（本次 Phantom MCP logoUri schema 錯誤，未用）",
-        "as_of_hkt": "2026-11-09 08:17:32 HKT"
+        "as_of_hkt": "2026-11-09 08:46:09 HKT"
       },
       {
         "id": "base",
         "label": "Base",
         "principal_usd": 99.74,
-        "equity_usd": 0.6113210500904325,
-        "pnl_usd": -99.12867894990956,
-        "pnl_pct": -0.9938708537187644,
+        "equity_usd": 0.6103495880679009,
+        "pnl_usd": -99.12965041193209,
+        "pnl_pct": -0.9938805936628443,
         "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
         "kind": "evm",
         "source": "public_rpc+hyperliquid_allMids",
         "note": "public RPC native + Hyperliquid allMids ETH（本次 Phantom MCP logoUri schema 錯誤，未用）",
-        "as_of_hkt": "2026-11-09 08:17:32 HKT"
+        "as_of_hkt": "2026-11-09 08:46:09 HKT"
       },
       {
         "id": "binance",
         "label": "幣安",
         "principal_usd": 150.0,
-        "equity_usd": 32.13494423132041,
-        "pnl_usd": -117.86505576867958,
-        "pnl_pct": -0.7857670384578639,
+        "equity_usd": 32.063001720829874,
+        "pnl_usd": -117.93699827917013,
+        "pnl_pct": -0.7862466551944675,
         "note": "鏈上 BSC 現值；CEX 本金可能唔喺呢個地址（已知 gap）",
         "address": "0xDcC338A2799dFf84A4b9f672b0De814332b554B0",
         "kind": "binance_onchain",
         "source": "public RPC BSC + Hyperliquid allMids BNB",
-        "as_of_hkt": "2026-11-09 08:17:32 HKT",
+        "as_of_hkt": "2026-11-09 08:46:09 HKT",
         "mismatch": true,
         "mismatch_note": "鏈上 BSC 現值；CEX 本金可能唔喺呢個地址（已知 gap）"
       }
     ],
     "total_principal_usd": 547.35,
-    "total_equity_usd": 122.84807841941084,
-    "total_pnl_usd": -424.50192158058917
+    "total_equity_usd": 122.86883402289779,
+    "total_pnl_usd": -424.48116597710225
   },
   "ledger": {
-    "as_of_hkt": "2026-11-09 08:17:32 HKT",
+    "as_of_hkt": "2026-11-09 08:46:09 HKT",
     "summary": {
       "n_rounds": 43,
       "wins": 14,
@@ -375,12 +375,12 @@
     }
   },
   "runtime": {
-    "as_of_hkt": "2026-11-09 08:17:32 HKT",
+    "as_of_hkt": "2026-11-09 08:46:09 HKT",
     "event_status": "LIVE",
     "EVENT_SHADOW_MODE": false,
-    "enable_scalp": false,
-    "enable_swing": false,
-    "enable_event": false,
+    "enable_scalp": true,
+    "enable_swing": true,
+    "enable_event": true,
     "robin_cat": "paused",
     "sleeves": {
       "elysium": "stopped",
@@ -388,7 +388,7 @@
       "solana-narrative": "stopped",
       "invested": false
     },
-    "pause_note": "Marco 2026-11-08 21:50 HKT 手動停 overnight／event／scalp／swing；EVENT_SHADOW_MODE 仍 false（非 shadow）"
+    "resume_note": "Marco 2026-11-09 08:26 HKT 重開 overnight／event／scalp／swing；唔動羅賓貓／Sniper／三條 sleeve；唔平 HYPE"
   },
-  "updated_hkt": "2026-11-09 08:17:32 HKT"
+  "updated_hkt": "2026-11-09 08:46:09 HKT"
 }

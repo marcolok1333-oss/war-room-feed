@@ -1,6 +1,6 @@
 {
   "schema": "war_room_feed/v1",
-  "as_of_hkt": "2026-11-09 15:50:22 HKT",
+  "as_of_hkt": "2026-11-09 16:20:29 HKT",
   "principal": 198.11,
   "capital_note": "",
   "strategies": [
@@ -19,7 +19,7 @@
       "label": "event",
       "family": "event",
       "status": "live",
-      "note": "LIVE（非 shadow）：EVENT_SHADOW_MODE=false + EVENT_LIVE／三重閘／--live；過閘可真開倉。常設硬頂 ≤$100／≤3x。對齊 @ 2026-11-09 15:50:22 HKT"
+      "note": "LIVE（非 shadow）：EVENT_SHADOW_MODE=false + EVENT_LIVE／三重閘／--live；過閘可真開倉。常設硬頂 ≤$100／≤3x。對齊 @ 2026-11-09 16:20:29 HKT"
     },
     {
       "id": "elysium",
@@ -100,6 +100,10 @@
   },
   "notes": [
     {
+      "ts_hkt": "2026-11-09 16:20:29 HKT",
+      "text": "定時同步：無新平倉（最近仍係 FIL Profile D scalp 多 closedPnl −0.21504，2026-11-09 15:29:27 HKT 交易所觸發 hard_sl oid 598955791482 @0.74084；同 BNB Profile D scalp 多 closedPnl −0.275，2026-11-09 15:45:47 HKT 交易所觸發 hard_sl oid 599019064361 @673.68）；無新開倉；HL 權益 $79.099614（-60.07%；對已通知基準 $81.923351/−58.65%，Δ≈$-2.8237＜$5）／勝率 30.4%／合計 -107.69112（47 單）；現倉 7（HYPE swing 空 uPnL=+1.24476／UNI scalp 空 uPnL=+0.426／BCH scalp 空 uPnL=+0.1085／TIA scalp 空 uPnL=+0.091／AAVE scalp 空 uPnL=+0.0414／DOT scalp 多 uPnL=-0.04788／BTC 人手 多 uPnL=-1.11012）；帳戶卡＋Notion 已刷新；event LIVE（EVENT_SHADOW_MODE=false）；enable_scalp／swing／event=true（Marco 08:26 重開）。"
+    },
+    {
       "ts_hkt": "2026-11-09 15:50:22 HKT",
       "text": "定時同步：新平倉 FIL Profile D scalp 多 closedPnl −0.21504（2026-11-09 15:29:27 HKT，交易所觸發 hard_sl oid 598955791482 @0.74084）同 BNB Profile D scalp 多 closedPnl −0.275（2026-11-09 15:45:47 HKT，交易所觸發 hard_sl oid 599019064361 @673.68）；無新開倉；HL 權益 $78.058335（-60.60%；對上輪已通知 $81.923351/−58.65%，Δ≈$-3.8650＜$5）／勝率 30.4%／合計 -107.69112（47 單）；現倉 7（HYPE swing 空 uPnL=+1.21394／UNI scalp 空 uPnL=+0.3309／BCH scalp 空 uPnL=+0.2075／TIA scalp 空 uPnL=+0.17375／AAVE scalp 空 uPnL=+0.1278／DOT scalp 多 uPnL=-0.10308／BTC 人手 多 uPnL=-2.25388）；帳戶卡＋Notion 已刷新；event LIVE（EVENT_SHADOW_MODE=false）；enable_scalp／swing／event=true（Marco 08:26 重開）。"
     },
@@ -178,10 +182,6 @@
     {
       "ts_hkt": "2026-11-08 20:19:44 HKT",
       "text": "定時同步：無新平倉；HL 權益 $165.32（-16.55%；前成功同步 $167.06/−15.68%；Δ≈$-1.73；對上輪已通知 $166.45/−15.98%，Δ≈$-1.13＜$5）／勝率 34.1%／合計 -15.98694；現倉 2（HYPE swing 空 uPnL≈+0.23／BTC 人手多 ≈-8.72）；帳戶卡＋Notion open uPnL 已刷新；event LIVE；enable_scalp=true（Marco Resume）。"
-    },
-    {
-      "ts_hkt": "2026-11-08 19:46:20 HKT",
-      "text": "定時同步：無新平倉；HL 權益 $167.06（-15.68%；前成功同步 $168.61/−14.89%；Δ≈$-1.55；對上輪已通知 $166.45/−15.98%，Δ≈$+0.60＜$5）／勝率 34.1%／合計 -15.98694；現倉 2（HYPE swing 空 uPnL≈+0.21／BTC 人手多 ≈-7.01）；帳戶卡＋Notion open uPnL 已刷新；event LIVE；enable_scalp=true（Marco Resume）。"
     }
   ],
   "targets": {},
@@ -192,7 +192,7 @@
     "invested": false
   },
   "wallets": {
-    "as_of_hkt": "2026-11-09 15:50:22 HKT",
+    "as_of_hkt": "2026-11-09 16:20:29 HKT",
     "source": "etherscan_mcp+public_rpc+hyperliquid_allMids",
     "phantom": {
       "solana": "CDG5WQyK4Eft49SYBN7ct1B48mjeShhtoU3FAaaqzuJk",
@@ -203,85 +203,85 @@
       "base_native": 0.000285724124273998,
       "bnb_native": 0.04671591590294879,
       "sol_native": 0.013445871,
-      "eth_usd": 8.03464707,
-      "base_usd": 0.5980920231365463,
-      "bnb_usd": 31.557535510759966,
-      "sol_usd": 1.1514707777625,
-      "eth_px": 2093.25,
-      "bnb_px": 675.52,
-      "sol_px": 85.6375
+      "eth_usd": 8.07303067,
+      "base_usd": 0.6009492643792863,
+      "bnb_usd": 31.7735966218111,
+      "sol_usd": 1.1595383003625,
+      "eth_px": 2103.25,
+      "bnb_px": 680.145,
+      "sol_px": 86.2375
     },
-    "note": "Phantom MCP wallet_balances schema broken (logoUri null); ETH/Base/BSC via Etherscan MCP (+ BSC public RPC match last run native); SOL via public RPC; prices Hyperliquid allMids"
+    "note": "Phantom MCP wallet_balances schema broken (logoUri null); ETH/Base/BSC via Etherscan MCP; SOL via public RPC; prices Hyperliquid allMids"
   },
   "accounts": {
-    "as_of_hkt": "2026-11-09 15:50:22 HKT",
+    "as_of_hkt": "2026-11-09 16:20:29 HKT",
     "cards": [
       {
         "id": "hl",
         "label": "HL",
         "principal_usd": 198.11,
-        "equity_usd": 78.058335,
-        "pnl_usd": -120.05166500000001,
-        "pnl_pct": -0.605984882136187,
-        "pnl_pct_display": "-60.60%",
+        "equity_usd": 79.099614,
+        "pnl_usd": -119.0104,
+        "pnl_pct": -0.600729,
+        "pnl_pct_display": "-60.07%",
         "wallet": "0x434aac14e137f4c1c841fe3e5e53ce88ad241571",
         "kind": "hyperliquid",
         "address": "0x434aac14e137f4c1c841fe3e5e53ce88ad241571",
         "source": "hyperliquid unifiedAccount trading_equity",
-        "note": "unifiedAccount：trading_equity=max(perp AV 69.725527, spot USDC 78.058335)；cross AV 23.339233；marginSummary incl. isolated BTC",
-        "as_of_hkt": "2026-11-09 15:50:22 HKT",
-        "perp_account_value": 69.725527,
-        "spot_usdc": 78.058335,
-        "cross_account_value": 23.339233
+        "note": "unifiedAccount：trading_equity=max(perp AV 70.849246, spot USDC 79.099614)；cross AV 23.250622；marginSummary incl. isolated BTC",
+        "as_of_hkt": "2026-11-09 16:20:29 HKT",
+        "perp_account_value": 70.849246,
+        "spot_usdc": 79.099614,
+        "cross_account_value": 23.250622
       },
       {
         "id": "eth",
         "label": "ETH",
         "principal_usd": 99.5,
-        "equity_usd": 8.03464707,
-        "pnl_usd": -91.46535293,
-        "pnl_pct": -0.9192497781909548,
+        "equity_usd": 8.07303067,
+        "pnl_usd": -91.42696933,
+        "pnl_pct": -0.9188640133668342,
         "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
         "kind": "evm",
         "source": "etherscan_mcp+hyperliquid_allMids",
         "note": "Etherscan MCP native + Hyperliquid allMids ETH（本次 Phantom MCP logoUri schema 錯誤，未用）",
-        "as_of_hkt": "2026-11-09 15:50:22 HKT"
+        "as_of_hkt": "2026-11-09 16:20:29 HKT"
       },
       {
         "id": "base",
         "label": "Base",
         "principal_usd": 99.74,
-        "equity_usd": 0.5980920231365463,
-        "pnl_usd": -99.14190797686345,
-        "pnl_pct": -0.9940034888396175,
+        "equity_usd": 0.6009492643792863,
+        "pnl_usd": -99.13905073562071,
+        "pnl_pct": -0.9939748419452649,
         "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
         "kind": "evm",
         "source": "etherscan_mcp+hyperliquid_allMids",
         "note": "Etherscan MCP native + Hyperliquid allMids ETH（本次 Phantom MCP logoUri schema 錯誤，未用）",
-        "as_of_hkt": "2026-11-09 15:50:22 HKT"
+        "as_of_hkt": "2026-11-09 16:20:29 HKT"
       },
       {
         "id": "binance",
         "label": "幣安",
         "principal_usd": 150.0,
-        "equity_usd": 31.557535510759966,
-        "pnl_usd": -118.44246448924004,
-        "pnl_pct": -0.789616429928267,
+        "equity_usd": 31.7735966218111,
+        "pnl_usd": -118.2264033781889,
+        "pnl_pct": -0.7881760225212594,
         "note": "鏈上 BSC 現值；CEX 本金可能唔喺呢個地址（已知 gap）",
         "address": "0xDcC338A2799dFf84A4b9f672b0De814332b554B0",
         "kind": "binance_onchain",
         "source": "etherscan_mcp+public RPC BSC + Hyperliquid allMids BNB",
-        "as_of_hkt": "2026-11-09 15:50:22 HKT",
+        "as_of_hkt": "2026-11-09 16:20:29 HKT",
         "mismatch": true,
         "mismatch_note": "鏈上 BSC 現值；CEX 本金可能唔喺呢個地址（已知 gap）"
       }
     ],
     "total_principal_usd": 547.35,
-    "total_equity_usd": 118.24860960389651,
-    "total_pnl_usd": -429.1013903961035
+    "total_equity_usd": 119.54719055619037,
+    "total_pnl_usd": -427.8028094438097
   },
   "ledger": {
-    "as_of_hkt": "2026-11-09 15:50:22 HKT",
+    "as_of_hkt": "2026-11-09 16:20:29 HKT",
     "summary": {
       "n_rounds": 47,
       "wins": 14,
@@ -442,7 +442,7 @@
     }
   },
   "runtime": {
-    "as_of_hkt": "2026-11-09 15:50:22 HKT",
+    "as_of_hkt": "2026-11-09 16:20:29 HKT",
     "event_status": "LIVE",
     "EVENT_SHADOW_MODE": false,
     "enable_scalp": true,
@@ -457,5 +457,5 @@
     },
     "resume_note": "Marco 2026-11-09 08:26 HKT 重開 overnight／event／scalp／swing；唔動羅賓貓／Sniper／三條 sleeve；唔平 HYPE"
   },
-  "updated_hkt": "2026-11-09 15:50:22 HKT"
+  "updated_hkt": "2026-11-09 16:20:29 HKT"
 }

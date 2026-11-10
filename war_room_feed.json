@@ -1,6 +1,6 @@
 {
   "schema": "war_room_feed/v1",
-  "as_of_hkt": "2026-11-10 10:15:14 HKT",
+  "as_of_hkt": "2026-11-10 10:44:00 HKT",
   "principal": 198.11,
   "capital_note": "",
   "strategies": [
@@ -19,7 +19,7 @@
       "label": "event",
       "family": "event",
       "status": "live",
-      "note": "LIVE（非 shadow）：EVENT_SHADOW_MODE=false + EVENT_LIVE／三重閘／--live；過閘可真開倉。常設硬頂 ≤$100／≤3x。對齊 @ 2026-11-10 10:15:14 HKT"
+      "note": "LIVE（非 shadow）：EVENT_SHADOW_MODE=false + EVENT_LIVE／三重閘／--live；過閘可真開倉。常設硬頂 ≤$100／≤3x。對齊 @ 2026-11-10 10:44:00 HKT"
     },
     {
       "id": "elysium",
@@ -254,7 +254,7 @@
     "invested": false
   },
   "wallets": {
-    "as_of_hkt": "2026-11-10 10:15:14 HKT",
+    "as_of_hkt": "2026-11-10 10:44:00 HKT",
     "source": "etherscan_mcp+public_rpc+hyperliquid_allMids",
     "phantom": {
       "solana": "CDG5WQyK4Eft49SYBN7ct1B48mjeShhtoU3FAaaqzuJk",
@@ -265,84 +265,84 @@
       "base_native": 0.000285724124273998,
       "bnb_native": 0.04671591590294879,
       "sol_native": 0.013445871,
-      "eth_usd": 8.148646362,
-      "base_usd": 0.606578029627484,
-      "bnb_usd": 32.23608418925029,
-      "sol_usd": 1.1558944693214999,
-      "eth_px": 2122.95,
-      "bnb_px": 690.045,
-      "sol_px": 85.9665
+      "eth_usd": 8.131757578,
+      "base_usd": 0.6053208434806785,
+      "bnb_usd": 32.17652139647404,
+      "sol_usd": 1.1559616986765,
+      "eth_px": 2118.55,
+      "bnb_px": 688.77,
+      "sol_px": 85.9715
     },
     "note": "Phantom MCP wallet_balances schema broken (logoUri null); ETH/Base/BSC via Etherscan MCP; SOL via public RPC; prices Hyperliquid allMids"
   },
   "accounts": {
-    "as_of_hkt": "2026-11-10 10:15:14 HKT",
+    "as_of_hkt": "2026-11-10 10:44:00 HKT",
     "cards": [
       {
         "id": "hl",
         "label": "HL",
         "principal_usd": 198.11,
-        "equity_usd": 92.302885,
-        "pnl_usd": -105.80711500000001,
-        "pnl_pct": -0.5340826561001464,
-        "pnl_pct_display": "-53.41%",
+        "equity_usd": 89.931265,
+        "pnl_usd": -108.17873500000002,
+        "pnl_pct": -0.5460538842057443,
+        "pnl_pct_display": "-54.61%",
         "wallet": "0x434aac14e137f4c1c841fe3e5e53ce88ad241571",
         "kind": "hyperliquid",
         "address": "0x434aac14e137f4c1c841fe3e5e53ce88ad241571",
         "source": "hyperliquid unifiedAccount trading_equity",
-        "note": "unifiedAccount：trading_equity=92.302885 = max(perp accountValue 61.657315, spot USDC 92.302885；principal 198.11 first_seen_equity",
-        "as_of_hkt": "2026-11-10 10:15:14 HKT",
-        "perp_account_value": 61.657315,
-        "spot_usdc": 92.302885
+        "note": "unifiedAccount：trading_equity=89.931265 = max(perp accountValue 59.285695, spot USDC 89.931265；principal 198.11 first_seen_equity",
+        "as_of_hkt": "2026-11-10 10:44:00 HKT",
+        "perp_account_value": 59.285695,
+        "spot_usdc": 89.931265
       },
       {
         "id": "eth",
         "label": "ETH",
         "principal_usd": 99.5,
-        "equity_usd": 8.148646362,
-        "pnl_usd": -91.351353638,
-        "pnl_pct": -0.9181040566633166,
+        "equity_usd": 8.131757578,
+        "pnl_usd": -91.368242422,
+        "pnl_pct": -0.9182737931859296,
         "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
         "kind": "evm",
         "source": "etherscan_mcp+hyperliquid_allMids",
         "note": "Etherscan MCP native + Hyperliquid allMids ETH（本次 Phantom MCP logoUri schema 錯誤，未用）",
-        "as_of_hkt": "2026-11-10 10:15:14 HKT"
+        "as_of_hkt": "2026-11-10 10:44:00 HKT"
       },
       {
         "id": "base",
         "label": "Base",
         "principal_usd": 99.74,
-        "equity_usd": 0.606578029627484,
-        "pnl_usd": -99.13342197037251,
-        "pnl_pct": -0.99391840756339,
+        "equity_usd": 0.6053208434806785,
+        "pnl_usd": -99.13467915651931,
+        "pnl_pct": -0.9939310121969052,
         "address": "0x2c7639f2bd1a0b7cd238e8c48d4be2d6d8329ee5",
         "kind": "evm",
         "source": "etherscan_mcp+hyperliquid_allMids",
         "note": "Etherscan MCP native + Hyperliquid allMids ETH（本次 Phantom MCP logoUri schema 錯誤，未用）",
-        "as_of_hkt": "2026-11-10 10:15:14 HKT"
+        "as_of_hkt": "2026-11-10 10:44:00 HKT"
       },
       {
         "id": "binance",
         "label": "幣安",
         "principal_usd": 150.0,
-        "equity_usd": 32.23608418925029,
-        "pnl_usd": -117.76391581074971,
-        "pnl_pct": -0.7850927720716647,
+        "equity_usd": 32.17652139647404,
+        "pnl_usd": -117.82347860352596,
+        "pnl_pct": -0.7854898573568397,
         "note": "鏈上 BSC 現值；CEX 本金可能唔喺呢個地址（已知 gap）",
         "address": "0xDcC338A2799dFf84A4b9f672b0De814332b554B0",
         "kind": "binance_onchain",
         "source": "etherscan_mcp+hyperliquid_allMids BNB",
-        "as_of_hkt": "2026-11-10 10:15:14 HKT",
+        "as_of_hkt": "2026-11-10 10:44:00 HKT",
         "mismatch": true,
         "mismatch_note": "鏈上 BSC 現值；CEX 本金可能唔喺呢個地址（已知 gap）"
       }
     ],
     "total_principal_usd": 547.35,
-    "total_equity_usd": 133.2941935808778,
-    "total_pnl_usd": -414.05580641912223
+    "total_equity_usd": 130.84486481795471,
+    "total_pnl_usd": -416.5051351820453
   },
   "ledger": {
-    "as_of_hkt": "2026-11-10 10:15:14 HKT",
+    "as_of_hkt": "2026-11-10 10:44:00 HKT",
     "summary": {
       "n_rounds": 53,
       "wins": 18,
@@ -534,7 +534,7 @@
     }
   },
   "runtime": {
-    "as_of_hkt": "2026-11-10 10:15:14 HKT",
+    "as_of_hkt": "2026-11-10 10:44:00 HKT",
     "event_status": "LIVE",
     "EVENT_SHADOW_MODE": false,
     "enable_scalp": false,
@@ -551,5 +551,5 @@
     "scalp_auto_paused_at_hkt": "2026-11-09 18:26:36 HKT",
     "scalp_auto_pause_reason": "自動暫停 scalp：滾動勝率 25% < 門檻 40%（N≥8）"
   },
-  "updated_hkt": "2026-11-10 10:15:14 HKT"
+  "updated_hkt": "2026-11-10 10:44:00 HKT"
 }
